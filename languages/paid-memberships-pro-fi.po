@@ -2,27 +2,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Paid Subscriptions\n"
 "POT-Creation-Date: 2015-07-23 12:05+0200\n"
-"PO-Revision-Date: 2015-07-23 12:22+0200\n"
-"Last-Translator: Onni Hakala <onni@koodimonni.fi>\n"
+"PO-Revision-Date: 2019-05-28 13:48+0300\n"
+"Last-Translator: Mikko Hirvonen <mikko.hirvonen@sovector.fi>\n"
 "Language-Team: Onni Hakala <onni@koodimonni.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.1\n"
+"X-Generator: Poedit 2.2.3\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: adminpages/addons.php:5 adminpages/advancedsettings.php:5
-#: adminpages/discountcodes.php:5 adminpages/emailsettings.php:5
-#: adminpages/membershiplevels.php:5 adminpages/memberslist-csv.php:5
-#: adminpages/memberslist.php:5 adminpages/orders-csv.php:5 adminpages/orders.php:5
-#: adminpages/pagesettings.php:5 adminpages/paymentsettings.php:5
+#: adminpages/addons.php:5 adminpages/advancedsettings.php:5 adminpages/discountcodes.php:5 adminpages/emailsettings.php:5 adminpages/membershiplevels.php:5 adminpages/memberslist-csv.php:5
+#: adminpages/memberslist.php:5 adminpages/orders-csv.php:5 adminpages/orders.php:5 adminpages/pagesettings.php:5 adminpages/paymentsettings.php:5
 msgid "You do not have permissions to perform this action."
 msgstr "﻿Sinulla ei ole riittäviä oikeuksia suorittaa tätä toimintoa."
 
@@ -36,7 +31,7 @@ msgstr "﻿Pois käytöstä"
 
 #: adminpages/admin_header.php:25
 msgid "Add a membership level to get started."
-msgstr "Lisää tilaajataso aloittaaksesi"
+msgstr "Lisää tilaajataso aloittaaksesi."
 
 #: adminpages/admin_header.php:27
 msgid "Set up the membership pages"
@@ -47,70 +42,44 @@ msgid "Set up your SSL certificate and payment gateway"
 msgstr "Aseta SSL-sertifikaatti ja maksuväylä"
 
 #: adminpages/admin_header.php:38
-msgid ""
-"The billing details for some of your membership levels is not supported by Stripe."
+msgid "The billing details for some of your membership levels is not supported by Stripe."
 msgstr "Stripe ei tue joidenkin tilaajatasojen laskutustietoja."
 
 #: adminpages/admin_header.php:46
-msgid ""
-"The billing details for this level are not supported by Stripe. Please review the "
-"notes in the Billing Details section below."
-msgstr ""
-"Stripe ei tue joidenkin tilaajatasojen laskutustietoja. Ole hyvä ja tarkista "
-"laskutustietojen merkinnät alapuolella olevasta osiosta."
+msgid "The billing details for this level are not supported by Stripe. Please review the notes in the Billing Details section below."
+msgstr "Stripe ei tue joidenkin tilaajatasojen laskutustietoja. Ole hyvä ja tarkista laskutustietojen merkinnät alapuolella olevasta osiosta."
 
-#: adminpages/admin_header.php:50 adminpages/admin_header.php:70
-#: adminpages/admin_header.php:90 adminpages/admin_header.php:111
+#: adminpages/admin_header.php:50 adminpages/admin_header.php:70 adminpages/admin_header.php:90 adminpages/admin_header.php:111
 msgid "The levels with issues are highlighted below."
 msgstr "Virheelliset tilaajatasot ovat korostettuna alapuolella."
 
-#: adminpages/admin_header.php:52 adminpages/admin_header.php:72
-#: adminpages/admin_header.php:92 adminpages/admin_header.php:113
+#: adminpages/admin_header.php:52 adminpages/admin_header.php:72 adminpages/admin_header.php:92 adminpages/admin_header.php:113
 msgid "Please edit your levels"
 msgstr "Ole hyvä ja muokkaa tilaajatasoja"
 
 #: adminpages/admin_header.php:58
-msgid ""
-"The billing details for some of your membership levels is not supported by Payflow."
+msgid "The billing details for some of your membership levels is not supported by Payflow."
 msgstr "Payflow ei tue joidenkin tilaajatasojen laskutustietoja."
 
 #: adminpages/admin_header.php:66
-msgid ""
-"The billing details for this level are not supported by Payflow. Please review the "
-"notes in the Billing Details section below."
-msgstr ""
-"Payflow ei tue joidenkin tilaajatasojen laskutustietoja.  Ole hyvä ja tarkista "
-"laskutustietojen merkinnät alapuolella olevasta osiosta."
+msgid "The billing details for this level are not supported by Payflow. Please review the notes in the Billing Details section below."
+msgstr "Payflow ei tue joidenkin tilaajatasojen laskutustietoja.  Ole hyvä ja tarkista laskutustietojen merkinnät alapuolella olevasta osiosta."
 
 #: adminpages/admin_header.php:78
-msgid ""
-"The billing details for some of your membership levels is not supported by "
-"Braintree."
-msgstr "Braintree ei tue joidenkin tilaajatasojen laskutustietoja. "
+msgid "The billing details for some of your membership levels is not supported by Braintree."
+msgstr "Braintree ei tue joidenkin tilaajatasojen laskutustietoja."
 
 #: adminpages/admin_header.php:86
-msgid ""
-"The billing details for this level are not supported by Braintree. Please review "
-"the notes in the Billing Details section below."
-msgstr ""
-"Braintree ei tue joidenkin tilaajatasojen laskutustietoja.  Ole hyvä ja tarkista "
-"laskutustietojen merkinnät alapuolella olevasta osiosta."
+msgid "The billing details for this level are not supported by Braintree. Please review the notes in the Billing Details section below."
+msgstr "Braintree ei tue joidenkin tilaajatasojen laskutustietoja.  Ole hyvä ja tarkista laskutustietojen merkinnät alapuolella olevasta osiosta."
 
 #: adminpages/admin_header.php:98
-msgid ""
-"The billing details for some of your membership levels is not supported by "
-"TwoCheckout."
-msgstr ""
-"2Checkout ei tue joidenkin tilaajatasojen laskutustietoja.  Ole hyvä ja tarkista "
-"laskutustietojen merkinnät alapuolella olevasta osiosta."
+msgid "The billing details for some of your membership levels is not supported by TwoCheckout."
+msgstr "2Checkout ei tue joidenkin tilaajatasojen laskutustietoja.  Ole hyvä ja tarkista laskutustietojen merkinnät alapuolella olevasta osiosta."
 
 #: adminpages/admin_header.php:107
-msgid ""
-"The billing details for this level are not supported by 2Checkout. Please review "
-"the notes in the Billing Details section below."
-msgstr ""
-"2Checkout ei tue joidenkin tilaajatasojen laskutustietoja.  Ole hyvä ja tarkista "
-"laskutustietojen merkinnät alapuolella olevasta osiosta."
+msgid "The billing details for this level are not supported by 2Checkout. Please review the notes in the Billing Details section below."
+msgstr "2Checkout ei tue joidenkin tilaajatasojen laskutustietoja.  Ole hyvä ja tarkista laskutustietojen merkinnät alapuolella olevasta osiosta."
 
 #: adminpages/admin_header.php:127
 msgid "Plugin Support"
@@ -120,9 +89,7 @@ msgstr "Lisäosan tuki"
 msgid "User Forum"
 msgstr "Keskustelufoorumi"
 
-#: adminpages/admin_header.php:150 adminpages/membershiplevels.php:569
-#: adminpages/pagesettings.php:69 includes/adminpages.php:64
-#: includes/adminpages.php:65 includes/adminpages.php:111
+#: adminpages/admin_header.php:150 adminpages/membershiplevels.php:569 adminpages/pagesettings.php:69 includes/adminpages.php:64 includes/adminpages.php:65 includes/adminpages.php:111
 msgid "Membership Levels"
 msgstr "Tilaajatasot"
 
@@ -134,8 +101,7 @@ msgstr "Sivut"
 msgid "Payment Gateway &amp; SSL"
 msgstr "Maksuväylä &amp; SSL"
 
-#: adminpages/admin_header.php:162 adminpages/memberslist.php:168
-#: shortcodes/pmpro_account.php:106
+#: adminpages/admin_header.php:162 adminpages/memberslist.php:168 shortcodes/pmpro_account.php:106
 msgid "Email"
 msgstr "Sähköposti"
 
@@ -143,8 +109,7 @@ msgstr "Sähköposti"
 msgid "Advanced"
 msgstr "Lisäasetukset"
 
-#: adminpages/admin_header.php:170 includes/adminpages.php:52
-#: includes/adminpages.php:146
+#: adminpages/admin_header.php:170 includes/adminpages.php:52 includes/adminpages.php:146
 msgid "Add Ons"
 msgstr "Lisäosat"
 
@@ -159,19 +124,14 @@ msgstr "Tämä sisältö on vain tilaajille. <a href=\"%s\">Rekisteröidy täst�
 
 #: adminpages/advancedsettings.php:73
 #, php-format
-msgid ""
-"Please <a href=\"%s\">login</a> to view this content. (<a href=\"%s\">Register "
-"here</a>.)"
-msgstr ""
-"<a href=\"%s\">Kirjaudu sisään</a> lukeaksesi sisällön. (<a href=\"%s\">Tai "
-"rekisteröidy täältä</a>.)"
+msgid "Please <a href=\"%s\">login</a> to view this content. (<a href=\"%s\">Register here</a>.)"
+msgstr "<a href=\"%s\">Kirjaudu sisään</a> lukeaksesi sisällön. (<a href=\"%s\">Tai rekisteröidy täältä</a>.)"
 
 #: adminpages/advancedsettings.php:78
 msgid "This content is for members only. Visit the site and log in/register to read."
 msgstr "Tämä sisältö on vain tilaajille. Kirjaudu sisään lukeaksesi artikkelin."
 
-#: adminpages/advancedsettings.php:88 includes/adminpages.php:51
-#: includes/adminpages.php:139
+#: adminpages/advancedsettings.php:88 includes/adminpages.php:51 includes/adminpages.php:139
 msgid "Advanced Settings"
 msgstr "Lisäasetukset"
 
@@ -181,8 +141,7 @@ msgstr "Viesti sisäänkirjautuneille ei-tilaajille"
 
 #: adminpages/advancedsettings.php:98
 msgid "This message replaces the post content for non-members. Available variables"
-msgstr ""
-"Tämä viesti korvaa artikkelin sisällön ei-tilaajille. Käytettävissä olevat muuttujat"
+msgstr "Tämä viesti korvaa artikkelin sisällön ei-tilaajille. Käytettävissä olevat muuttujat"
 
 #: adminpages/advancedsettings.php:103
 msgid "Message for Logged-out Users"
@@ -190,7 +149,7 @@ msgstr "Viesti kirjautumattomille käyttäjille"
 
 #: adminpages/advancedsettings.php:107
 msgid "This message replaces the post content for logged-out visitors."
-msgstr "Tämä viesti korvaa artikkelin sisällön kirjautumattomille käyttäjille"
+msgstr "Tämä viesti korvaa artikkelin sisällön kirjautumattomille käyttäjille."
 
 #: adminpages/advancedsettings.php:112
 msgid "Message for RSS Feed"
@@ -210,8 +169,7 @@ msgstr "Ei - Kaikki käyttäjät näkevät kaikki artikkelit/sivut hauissa ja ar
 
 #: adminpages/advancedsettings.php:127
 msgid "Yes - Only members will see restricted posts/pages in searches and archives."
-msgstr ""
-"Kyllä - Vain tilaajat näkevät rajoitetut artikkelit/sivut hauissa ja arkistoissa."
+msgstr "Kyllä - Vain tilaajat näkevät rajoitetut artikkelit/sivut hauissa ja arkistoissa."
 
 #: adminpages/advancedsettings.php:133
 msgid "Show Excerpts to Non-Members?"
@@ -229,9 +187,7 @@ msgstr "Kyllä - Näytä ote artikkelista."
 msgid "Hide Ads From Members?"
 msgstr "Piilota mainokset tilaajilta?"
 
-#: adminpages/advancedsettings.php:148 adminpages/advancedsettings.php:207
-#: adminpages/advancedsettings.php:219 adminpages/membershiplevels.php:658
-#: adminpages/paymentsettings.php:210
+#: adminpages/advancedsettings.php:148 adminpages/advancedsettings.php:207 adminpages/advancedsettings.php:219 adminpages/membershiplevels.php:658 adminpages/paymentsettings.php:210
 #: classes/gateways/class.pmprogateway_stripe.php:174 includes/profile.php:101
 msgid "No"
 msgstr "Ei"
@@ -264,9 +220,7 @@ msgstr "Ohjaa kaikki liikenne rekisteröinti sivulta osoitteeseen /tilaus/?"
 msgid "multisite only"
 msgstr "vain multisite"
 
-#: adminpages/advancedsettings.php:208 adminpages/membershiplevels.php:658
-#: adminpages/paymentsettings.php:211
-#: classes/gateways/class.pmprogateway_stripe.php:175 includes/profile.php:102
+#: adminpages/advancedsettings.php:208 adminpages/membershiplevels.php:658 adminpages/paymentsettings.php:211 classes/gateways/class.pmprogateway_stripe.php:175 includes/profile.php:102
 msgid "Yes"
 msgstr "Kyllä"
 
@@ -276,11 +230,11 @@ msgstr "Ota käyttöön reCAPTCHA?"
 
 #: adminpages/advancedsettings.php:220
 msgid "Yes - Free memberships only."
-msgstr "Kyllä - Vain maksuttomille tilaajille"
+msgstr "Kyllä - Vain maksuttomille tilaajille."
 
 #: adminpages/advancedsettings.php:221
 msgid "Yes - All memberships."
-msgstr "Kyllä - Kaikille tilaajille"
+msgstr "Kyllä - Kaikille tilaajille."
 
 #: adminpages/advancedsettings.php:223
 msgid "A free reCAPTCHA key is required."
@@ -303,19 +257,14 @@ msgid "Require Terms of Service on signups?"
 msgstr "﻿Vaadi käyttöehdot rekisteröitymisen yhteydessä?"
 
 #: adminpages/advancedsettings.php:245
-msgid ""
-"If yes, create a WordPress page containing your TOS agreement and assign it using "
-"the dropdown above."
-msgstr ""
-"Mikäli valitsit kyllä, luo Wordpress-sivu, joka sisältää käyttöehtosopimukset ja "
-"valitse se käyttämällä ylläolevaa pudotuslaatikkoa."
+msgid "If yes, create a WordPress page containing your TOS agreement and assign it using the dropdown above."
+msgstr "Mikäli valitsit kyllä, luo Wordpress-sivu, joka sisältää käyttöehtosopimukset ja valitse se käyttämällä ylläolevaa pudotuslaatikkoa."
 
 #: adminpages/advancedsettings.php:285
 msgid "selected"
 msgstr "﻿valittu"
 
-#: adminpages/advancedsettings.php:368 adminpages/pagesettings.php:251
-#: adminpages/paymentsettings.php:238
+#: adminpages/advancedsettings.php:368 adminpages/pagesettings.php:251 adminpages/paymentsettings.php:238
 msgid "Save Settings"
 msgstr "Tallenna asetukset"
 
@@ -342,7 +291,7 @@ msgstr "Virhe tallennettaessa arvoja %s tilaajatasolle."
 
 #: adminpages/discountcodes.php:205
 msgid "There were errors updating the level values: "
-msgstr "Tapahtui virheitä päivitettäessä seuraavia tasoja:"
+msgstr "Tapahtui virheitä päivitettäessä seuraavia tasoja: "
 
 #: adminpages/discountcodes.php:238
 #, php-format
@@ -350,11 +299,8 @@ msgid "Code %s deleted successfully."
 msgstr "Koodi %s poistettiin onnistuneesti."
 
 #: adminpages/discountcodes.php:243
-msgid ""
-"Error deleting discount code. The code was only partially deleted. Please try again."
-msgstr ""
-"Virhe poistettaessa alennuskoodia. Koodi poistettiin vain osittain. Ole hyvä ja "
-"yritä uudelleen."
+msgid "Error deleting discount code. The code was only partially deleted. Please try again."
+msgstr "Virhe poistettaessa alennuskoodia. Koodi poistettiin vain osittain. Ole hyvä ja yritä uudelleen."
 
 #: adminpages/discountcodes.php:249
 msgid "Error deleting code. Please try again."
@@ -372,9 +318,7 @@ msgstr "Muokkaa Alennuskoodia"
 msgid "Add New Discount Code"
 msgstr "Lisää uusi alennuskoodi"
 
-#: adminpages/discountcodes.php:310 adminpages/discountcodes.php:586
-#: adminpages/membershiplevels.php:288 adminpages/membershiplevels.php:583
-#: adminpages/memberslist.php:164 adminpages/orders.php:910
+#: adminpages/discountcodes.php:310 adminpages/discountcodes.php:586 adminpages/membershiplevels.php:288 adminpages/membershiplevels.php:583 adminpages/memberslist.php:164 adminpages/orders.php:910
 #: adminpages/reports/login.php:142
 msgid "ID"
 msgstr ""
@@ -383,8 +327,7 @@ msgstr ""
 msgid "This will be generated when you save."
 msgstr "Tämä luodaan satunnaisesti kun tallennat."
 
-#: adminpages/discountcodes.php:315 adminpages/discountcodes.php:587
-#: adminpages/orders.php:265 adminpages/orders.php:911
+#: adminpages/discountcodes.php:315 adminpages/discountcodes.php:587 adminpages/orders.php:265 adminpages/orders.php:911
 msgid "Code"
 msgstr "﻿Koodi"
 
@@ -392,10 +335,7 @@ msgstr "﻿Koodi"
 msgid "Start Date"
 msgstr "﻿Alkamispäivä"
 
-#: adminpages/discountcodes.php:371
-#: classes/gateways/class.pmprogateway_braintree.php:321
-#: classes/gateways/class.pmprogateway_stripe.php:455 pages/billing.php:262
-#: pages/checkout.php:562
+#: adminpages/discountcodes.php:371 classes/gateways/class.pmprogateway_braintree.php:321 classes/gateways/class.pmprogateway_stripe.php:455 pages/billing.php:262 pages/checkout.php:562
 msgid "Expiration Date"
 msgstr "﻿Päättymispäivä"
 
@@ -405,11 +345,11 @@ msgstr "Käyttökertoja"
 
 #: adminpages/discountcodes.php:392
 msgid "Leave blank for unlimited uses."
-msgstr "Jätä tyhjäksi jos koodia saa käyttää rajattomasti"
+msgstr "Jätä tyhjäksi jos koodia saa käyttää rajattomasti."
 
 #: adminpages/discountcodes.php:401
 msgid "Which Levels Will This Code Apply To?"
-msgstr "Valitse käyttäjätasot, joille koodi toimii"
+msgstr "Mille käyttäjätasoille tämä koodi on voimassa?"
 
 #: adminpages/discountcodes.php:431 adminpages/membershiplevels.php:341
 msgid "Initial Payment"
@@ -431,27 +371,19 @@ msgstr "Valitse, jos taso sisältää uusiutuvan maksun."
 msgid "Billing Amount"
 msgstr "Maksu"
 
-#: adminpages/discountcodes.php:467 adminpages/discountcodes.php:521
-#: adminpages/membershiplevels.php:376 adminpages/membershiplevels.php:479
-#: classes/gateways/class.pmprogateway_stripe.php:522
+#: adminpages/discountcodes.php:467 adminpages/discountcodes.php:521 adminpages/membershiplevels.php:376 adminpages/membershiplevels.php:479 classes/gateways/class.pmprogateway_stripe.php:522
 msgid "Day(s)"
 msgstr "Päivä(ä)"
 
-#: adminpages/discountcodes.php:467 adminpages/discountcodes.php:521
-#: adminpages/membershiplevels.php:376 adminpages/membershiplevels.php:479
-#: classes/gateways/class.pmprogateway_stripe.php:522
+#: adminpages/discountcodes.php:467 adminpages/discountcodes.php:521 adminpages/membershiplevels.php:376 adminpages/membershiplevels.php:479 classes/gateways/class.pmprogateway_stripe.php:522
 msgid "Week(s)"
 msgstr "Viikko(a)"
 
-#: adminpages/discountcodes.php:467 adminpages/discountcodes.php:521
-#: adminpages/membershiplevels.php:376 adminpages/membershiplevels.php:479
-#: classes/gateways/class.pmprogateway_stripe.php:522
+#: adminpages/discountcodes.php:467 adminpages/discountcodes.php:521 adminpages/membershiplevels.php:376 adminpages/membershiplevels.php:479 classes/gateways/class.pmprogateway_stripe.php:522
 msgid "Month(s)"
 msgstr "Kuukautta"
 
-#: adminpages/discountcodes.php:467 adminpages/discountcodes.php:521
-#: adminpages/membershiplevels.php:376 adminpages/membershiplevels.php:479
-#: classes/gateways/class.pmprogateway_stripe.php:522
+#: adminpages/discountcodes.php:467 adminpages/discountcodes.php:521 adminpages/membershiplevels.php:376 adminpages/membershiplevels.php:479 classes/gateways/class.pmprogateway_stripe.php:522
 msgid "Year(s)"
 msgstr "Vuotta"
 
@@ -465,13 +397,8 @@ msgstr "Laskutusjaksojen maksimi"
 
 #: adminpages/discountcodes.php:483 adminpages/membershiplevels.php:407
 msgid ""
-"The <strong>total</strong> number of recurring billing cycles for this level, "
-"including the trial period (if applicable) but not including the initial payment. "
-"Set to zero if membership is indefinite."
-msgstr ""
-"Tilaajatason laskutettavien jaksojen <strong>kokonaismäärä</strong>, sisältäen "
-"kokeiluajan ja lukuunottamatta aloitusmaksua. Aseta <strong>0</strong>, mikäli "
-"tilaus jatkuu toistaiseksi."
+"The <strong>total</strong> number of recurring billing cycles for this level, including the trial period (if applicable) but not including the initial payment. Set to zero if membership is indefinite."
+msgstr "Tilaajatason laskutettavien jaksojen <strong>kokonaismäärä</strong>, sisältäen kokeiluajan ja lukuunottamatta aloitusmaksua. Aseta <strong>0</strong>, mikäli tilaus jatkuu toistaiseksi."
 
 #: adminpages/discountcodes.php:488 adminpages/membershiplevels.php:416
 msgid "Custom Trial"
@@ -506,16 +433,12 @@ msgid "Expires In"
 msgstr "Vanhenee kun"
 
 #: adminpages/discountcodes.php:529 adminpages/membershiplevels.php:487
-msgid ""
-"Set the duration of membership access. Note that the any future payments (recurring "
-"subscription, if any) will be cancelled when the membership expires."
-msgstr ""
-"Valitse tilaajatason kesto. Ota huomioon, että tulevat maksut (uusiutuvat "
-"tilaukset, mikäli niitä on) loppuvat kun tilaus päättyy."
+msgid "Set the duration of membership access. Note that the any future payments (recurring subscription, if any) will be cancelled when the membership expires."
+msgstr "Valitse tilaajatason kesto. Ota huomioon, että tulevat maksut (uusiutuvat tilaukset, mikäli niitä on) loppuvat kun tilaus päättyy."
 
 #: adminpages/discountcodes.php:557
 msgid "Memberships Discount Codes"
-msgstr ""
+msgstr "Tilaajien alennuskoodit"
 
 #: adminpages/discountcodes.php:567
 msgid "Search Discount Codes"
@@ -529,8 +452,7 @@ msgstr "Etsi"
 msgid "Starts"
 msgstr "Alkaa"
 
-#: adminpages/discountcodes.php:589 adminpages/memberslist.php:179
-#: adminpages/reports/login.php:147 includes/profile.php:98
+#: adminpages/discountcodes.php:589 adminpages/memberslist.php:179 adminpages/reports/login.php:147 includes/profile.php:98
 msgid "Expires"
 msgstr "Päättyy"
 
@@ -539,51 +461,38 @@ msgid "Levels"
 msgstr "Tilaajatasot"
 
 #: adminpages/discountcodes.php:603
-msgid ""
-"Discount codes allow you to offer your memberships at discounted prices to select "
-"customers."
+msgid "Discount codes allow you to offer your memberships at discounted prices to select customers."
 msgstr ""
 
 #: adminpages/discountcodes.php:603
 msgid "Create your first discount code now"
 msgstr "Luo ensimmäinen alennuskoodisi nyt"
 
-#: adminpages/discountcodes.php:648 adminpages/membershiplevels.php:660
-#: adminpages/orders.php:989
+#: adminpages/discountcodes.php:648 adminpages/membershiplevels.php:660 adminpages/orders.php:989
 msgid "edit"
 msgstr "muokkaa"
 
 #: adminpages/discountcodes.php:651
 #, php-format
-msgid ""
-"Are you sure you want to delete the %s discount code? The subscriptions for "
-"existing users will not change, but new users will not be able to use this code "
-"anymore."
+msgid "Are you sure you want to delete the %s discount code? The subscriptions for existing users will not change, but new users will not be able to use this code anymore."
 msgstr ""
 
-#: adminpages/discountcodes.php:651 adminpages/membershiplevels.php:660
-#: adminpages/orders.php:995
+#: adminpages/discountcodes.php:651 adminpages/membershiplevels.php:660 adminpages/orders.php:995
 msgid "delete"
 msgstr "poista"
 
-#: adminpages/emailsettings.php:69 includes/adminpages.php:50
-#: includes/adminpages.php:132
+#: adminpages/emailsettings.php:69 includes/adminpages.php:50 includes/adminpages.php:132
 msgid "Email Settings"
 msgstr "Sähköpostiasetukset"
 
 #: adminpages/emailsettings.php:70
-msgid ""
-"By default, system generated emails are sent from <em><strong>wordpress@yourdomain."
-"com</strong></em>. You can update this from address using the fields below."
+msgid "By default, system generated emails are sent from <em><strong>wordpress@yourdomain.com</strong></em>. You can update this from address using the fields below."
 msgstr ""
 
 #: adminpages/emailsettings.php:72
 msgid ""
-"To modify the appearance of system generated emails, add the files <em>email_header."
-"html</em> and <em>email_footer.html</em> to your theme's directory. This will "
-"modify both the WordPress default messages as well as messages generated by Paid "
-"Memberships Pro. <a title=\"Paid Memberships Pro - Member Communications\" target="
-"\"_blank\" href=\"http://www.paidmembershipspro.com/documentation/member-"
+"To modify the appearance of system generated emails, add the files <em>email_header.html</em> and <em>email_footer.html</em> to your theme's directory. This will modify both the WordPress default messages "
+"as well as messages generated by Paid Memberships Pro. <a title=\"Paid Memberships Pro - Member Communications\" target=\"_blank\" href=\"http://www.paidmembershipspro.com/documentation/member-"
 "communications/\">Click here to learn more about Paid Memberships Pro emails</a>."
 msgstr ""
 
@@ -648,24 +557,20 @@ msgid "New Users"
 msgstr "Uudet Käyttäjät"
 
 #: adminpages/emailsettings.php:168
-msgid ""
-"Default WP notification email. (Recommended: Leave unchecked. Members will still "
-"get an email confirmation from PMPro after checkout.)"
-msgstr ""
-"Wordpressin oletussähköposti. (Suositus: Jätä tyhjäksi. Tilaajat saavat "
-"jokatapauksessa sähköpostin PMPro:lta maksamisen jälkeen."
+msgid "Default WP notification email. (Recommended: Leave unchecked. Members will still get an email confirmation from PMPro after checkout.)"
+msgstr "Wordpressin oletussähköposti. (Suositus: Jätä tyhjäksi. Tilaajat saavat jokatapauksessa sähköpostin PMPro:lta maksamisen jälkeen."
 
 #: adminpages/membershiplevels.php:120
 msgid "Membership level updated successfully."
-msgstr "Tilaajataso uusittiin onnistuneesti"
+msgstr "Tilaajataso uusittiin onnistuneesti."
 
 #: adminpages/membershiplevels.php:126
 msgid "Error updating membership level."
-msgstr "Virhe päivitettäessä tilaajatasoa"
+msgstr "Virhe päivitettäessä tilaajatasoa."
 
 #: adminpages/membershiplevels.php:143
 msgid "Membership level added successfully."
-msgstr ""
+msgstr "Jäsenyystaso on lisätty onnistuneesti."
 
 #: adminpages/membershiplevels.php:148
 msgid "Error adding membership level."
@@ -673,9 +578,7 @@ msgstr ""
 
 #: adminpages/membershiplevels.php:183
 #, php-format
-msgid ""
-"There was an error canceling the subscription for user with ID=%d. You will want to "
-"check your payment gateway to see if their subscription is still active."
+msgid "There was an error canceling the subscription for user with ID=%d. You will want to check your payment gateway to see if their subscription is still active."
 msgstr ""
 
 #: adminpages/membershiplevels.php:186
@@ -698,8 +601,7 @@ msgstr "Muokkaa Tilaajatasoa"
 msgid "Add New Membership Level"
 msgstr "Lisää uusi Tilaajataso"
 
-#: adminpages/membershiplevels.php:295 adminpages/membershiplevels.php:584
-#: adminpages/reports/login.php:144
+#: adminpages/membershiplevels.php:295 adminpages/membershiplevels.php:584 adminpages/reports/login.php:144
 msgid "Name"
 msgstr "Nimi"
 
@@ -715,60 +617,41 @@ msgstr "Vahvistusviesti"
 msgid "Billing Details"
 msgstr "Laskutuksen asetukset"
 
-#: adminpages/membershiplevels.php:372
-#: classes/gateways/class.pmprogateway_stripe.php:620
+#: adminpages/membershiplevels.php:372 classes/gateways/class.pmprogateway_stripe.php:620
 msgid "per"
 msgstr ""
 
 #: adminpages/membershiplevels.php:387
-msgid ""
-"Stripe integration currently only supports billing periods of \"Week\", \"Month\" "
-"or \"Year\"."
+msgid "Stripe integration currently only supports billing periods of \"Week\", \"Month\" or \"Year\"."
 msgstr ""
 
 #: adminpages/membershiplevels.php:389
-msgid ""
-"Braintree integration currently only supports billing periods of \"Month\" or \"Year"
-"\"."
+msgid "Braintree integration currently only supports billing periods of \"Month\" or \"Year\"."
 msgstr ""
 
 #: adminpages/membershiplevels.php:391
-msgid ""
-"Payflow integration currently only supports billing frequencies of 1 and billing "
-"periods of \"Week\", \"Month\" or \"Year\"."
+msgid "Payflow integration currently only supports billing frequencies of 1 and billing periods of \"Week\", \"Month\" or \"Year\"."
 msgstr ""
 
-#: adminpages/membershiplevels.php:395 adminpages/membershiplevels.php:397
-#: classes/gateways/class.pmprogateway_cybersource.php:101
-#: classes/gateways/class.pmprogateway_paypal.php:118
-#: classes/gateways/class.pmprogateway_paypalexpress.php:123
-#: classes/gateways/class.pmprogateway_paypalstandard.php:117
+#: adminpages/membershiplevels.php:395 adminpages/membershiplevels.php:397 classes/gateways/class.pmprogateway_cybersource.php:101 classes/gateways/class.pmprogateway_paypal.php:118
+#: classes/gateways/class.pmprogateway_paypalexpress.php:123 classes/gateways/class.pmprogateway_paypalstandard.php:117
 msgid "Note"
 msgstr "Huomio"
 
 #: adminpages/membershiplevels.php:395
-msgid ""
-"After saving this level, make note of the ID and create a \"Plan\" in your "
-"Braintree dashboard with the same settings and the \"Plan ID\" set to <em>pmpro_#</"
-"em>, where # is the level ID."
+msgid "After saving this level, make note of the ID and create a \"Plan\" in your Braintree dashboard with the same settings and the \"Plan ID\" set to <em>pmpro_#</em>, where # is the level ID."
 msgstr ""
 
 #: adminpages/membershiplevels.php:397
-msgid ""
-"You will need to create a \"Plan\" in your Braintree dashboard with the same "
-"settings and the \"Plan ID\" set to"
+msgid "You will need to create a \"Plan\" in your Braintree dashboard with the same settings and the \"Plan ID\" set to"
 msgstr ""
 
 #: adminpages/membershiplevels.php:409
-msgid ""
-"Stripe integration currently does not support billing limits. You can still set an "
-"expiration date below."
+msgid "Stripe integration currently does not support billing limits. You can still set an expiration date below."
 msgstr ""
 
 #: adminpages/membershiplevels.php:421
-msgid ""
-"2Checkout integration does not support custom trials. You can do one period trials "
-"by setting an initial payment different from the billing amount."
+msgid "2Checkout integration does not support custom trials. You can do one period trials by setting an initial payment different from the billing amount."
 msgstr ""
 
 #: adminpages/membershiplevels.php:443
@@ -776,8 +659,7 @@ msgid "Stripe integration currently does not support trial amounts greater than 
 msgstr ""
 
 #: adminpages/membershiplevels.php:447
-msgid ""
-"Braintree integration currently does not support trial amounts greater than $0."
+msgid "Braintree integration currently does not support trial amounts greater than $0."
 msgstr ""
 
 #: adminpages/membershiplevels.php:451
@@ -793,8 +675,7 @@ msgid "Disable New Signups"
 msgstr "Ota Rekisteröityminen pois käytöstä"
 
 #: adminpages/membershiplevels.php:465
-msgid ""
-"Check to hide this level from the membership levels page and disable registration."
+msgid "Check to hide this level from the membership levels page and disable registration."
 msgstr "Valitse piilottaaksesi tason tilaajatasosivulta ja estääksesi rekisteröinnin."
 
 #: adminpages/membershiplevels.php:495
@@ -809,8 +690,7 @@ msgstr "Kategoriat"
 msgid "Save Level"
 msgstr "Tallenna taso"
 
-#: adminpages/membershiplevels.php:517 adminpages/orders.php:561
-#: pages/billing.php:339 pages/cancel.php:71 shortcodes/pmpro_account.php:70
+#: adminpages/membershiplevels.php:517 adminpages/orders.php:561 pages/billing.php:339 pages/cancel.php:71 shortcodes/pmpro_account.php:70
 msgid "Cancel"
 msgstr "Peruuta"
 
@@ -826,8 +706,7 @@ msgstr "Etsi tasoja"
 msgid "Drag and drop membership levels to reorder them on the Levels page."
 msgstr "Vedä ja pudota tilaajatasot uudelleen järjestääksesi ne Tilaajataso sivulla."
 
-#: adminpages/membershiplevels.php:586 pages/cancel.php:53 pages/confirmation.php:83
-#: pages/invoice.php:70 shortcodes/pmpro_account.php:46
+#: adminpages/membershiplevels.php:586 pages/cancel.php:53 pages/confirmation.php:83 pages/invoice.php:70 shortcodes/pmpro_account.php:46
 msgid "Expiration"
 msgstr "﻿Päättymispäivä"
 
@@ -847,8 +726,7 @@ msgstr "Jälkeen"
 msgid "copy"
 msgstr "kopioi"
 
-#: adminpages/memberslist.php:25 includes/adminpages.php:53
-#: includes/adminpages.php:153
+#: adminpages/memberslist.php:25 includes/adminpages.php:53 includes/adminpages.php:153
 msgid "Members List"
 msgstr "Tilaajalista"
 
@@ -860,8 +738,7 @@ msgstr "Vie CSV:hen"
 msgid "Show"
 msgstr "Näytä"
 
-#: adminpages/memberslist.php:32 adminpages/reports/login.php:69
-#: adminpages/reports/memberships.php:317 adminpages/reports/sales.php:216
+#: adminpages/memberslist.php:32 adminpages/reports/login.php:69 adminpages/reports/memberships.php:317 adminpages/reports/sales.php:216
 msgid "All Levels"
 msgstr "Kaikki tasot"
 
@@ -886,8 +763,7 @@ msgstr "Etsi Tilaajia"
 msgid "%d members found."
 msgstr "%d tilaajaa löytyi."
 
-#: adminpages/memberslist.php:165 pages/checkout.php:180
-#: shortcodes/pmpro_account.php:105
+#: adminpages/memberslist.php:165 pages/checkout.php:180 shortcodes/pmpro_account.php:105
 msgid "Username"
 msgstr "Käyttäjänimi"
 
@@ -899,13 +775,11 @@ msgstr "﻿Etunimi"
 msgid "Last&nbsp;Name"
 msgstr "﻿Sukunimi"
 
-#: adminpages/memberslist.php:170 pages/billing.php:71 pages/checkout.php:311
-#: pages/confirmation.php:61 pages/invoice.php:48
+#: adminpages/memberslist.php:170 pages/billing.php:71 pages/checkout.php:311 pages/confirmation.php:61 pages/invoice.php:48
 msgid "Billing Address"
 msgstr "﻿Laskutusosoite"
 
-#: adminpages/memberslist.php:171 adminpages/reports/login.php:145
-#: classes/gateways/class.pmprogateway_authorizenet.php:303
+#: adminpages/memberslist.php:171 adminpages/reports/login.php:145 classes/gateways/class.pmprogateway_authorizenet.php:303
 msgid "Membership"
 msgstr "Tilaaja"
 
@@ -947,7 +821,7 @@ msgstr ""
 
 #: adminpages/orders.php:180
 msgid "Error saving order."
-msgstr "Tilauksen tallentamisessa tapahtui virhe"
+msgstr "Tilauksen tallentamisessa tapahtui virhe."
 
 #: adminpages/orders.php:245
 msgid "Order"
@@ -1025,9 +899,7 @@ msgstr "﻿Maksutyyppi"
 msgid "e.g. PayPal Express, PayPal Standard, Credit Card."
 msgstr "kuten. PayPal Express, PayPal Standard, Luottokortti."
 
-#: adminpages/orders.php:389 classes/gateways/class.pmprogateway_braintree.php:304
-#: classes/gateways/class.pmprogateway_stripe.php:409 pages/billing.php:247
-#: pages/checkout.php:516
+#: adminpages/orders.php:389 classes/gateways/class.pmprogateway_braintree.php:304 classes/gateways/class.pmprogateway_stripe.php:409 pages/billing.php:247 pages/checkout.php:516
 msgid "Card Type"
 msgstr "﻿Korttityyppi"
 
@@ -1077,9 +949,7 @@ msgstr "Maksu transaktion ID"
 
 #: adminpages/orders.php:479
 msgid "Generated by the gateway. Useful to cross reference orders."
-msgstr ""
-"Maksuväylän generoima. Hyödyllinen tekemään ristikkäisiä viittauksia tilauksien "
-"välillä."
+msgstr "Maksuväylän generoima. Hyödyllinen tekemään ristikkäisiä viittauksia tilauksien välillä."
 
 #: adminpages/orders.php:483
 msgid "Subscription Transaction ID"
@@ -1089,8 +959,7 @@ msgstr ""
 msgid "Generated by the gateway. Useful to cross reference subscriptions."
 msgstr ""
 
-#: adminpages/orders.php:493 adminpages/orders.php:920 pages/invoice.php:107
-#: shortcodes/pmpro_account.php:122
+#: adminpages/orders.php:493 adminpages/orders.php:920 pages/invoice.php:107 shortcodes/pmpro_account.php:122
 msgid "Date"
 msgstr "﻿Päiväys"
 
@@ -1121,7 +990,7 @@ msgstr "﻿Lisää Uusi Tilaus"
 #: adminpages/orders.php:603
 msgctxt "Dropdown label, e.g. Show Daily Orders for January"
 msgid "Show"
-msgstr ""
+msgstr "Näytä"
 
 #: adminpages/orders.php:605
 msgid "All"
@@ -1172,14 +1041,12 @@ msgstr "﻿Etsi tilauksista"
 msgid "%d orders found."
 msgstr "﻿%d tilausta löytyi."
 
-#: adminpages/orders.php:912 adminpages/reports/login.php:143
-#: classes/gateways/class.pmprogateway_payflowpro.php:116
+#: adminpages/orders.php:912 adminpages/reports/login.php:143 classes/gateways/class.pmprogateway_payflowpro.php:116
 msgid "User"
 msgstr "Käyttäjä"
 
-#: adminpages/orders.php:914 includes/init.php:222 includes/profile.php:27
-#: pages/checkout.php:42 pages/confirmation.php:47 pages/confirmation.php:64
-#: pages/confirmation.php:105 pages/invoice.php:28 pages/invoice.php:51
+#: adminpages/orders.php:914 includes/init.php:222 includes/profile.php:27 pages/checkout.php:42 pages/confirmation.php:47 pages/confirmation.php:64 pages/confirmation.php:105 pages/invoice.php:28
+#: pages/invoice.php:51
 msgid "Membership Level"
 msgstr "Tilaajataso"
 
@@ -1201,12 +1068,8 @@ msgstr "Tilaus"
 
 #: adminpages/orders.php:995
 #, php-format
-msgid ""
-"Deleting orders is permanent and can affect active users. Are you sure you want to "
-"delete order %s?"
-msgstr ""
-"Tilauksien poistaminen on lopullista ja saattaa vaikuttaa aktiivisiin käyttäjiin. "
-"Haluatko varmasti poistaa tilauksen %s?"
+msgid "Deleting orders is permanent and can affect active users. Are you sure you want to delete order %s?"
+msgstr "Tilauksien poistaminen on lopullista ja saattaa vaikuttaa aktiivisiin käyttäjiin. Haluatko varmasti poistaa tilauksen %s?"
 
 #: adminpages/orders.php:1005
 msgid "No orders found."
@@ -1214,40 +1077,39 @@ msgstr "Tilauksia ei löytynyt."
 
 #: adminpages/pagesettings.php:51
 msgid "Membership Account"
-msgstr ""
+msgstr "Jäsenyystili"
 
 #: adminpages/pagesettings.php:54
 msgid "Membership Billing"
-msgstr ""
+msgstr "Jäsenyyden laskutus"
 
 #: adminpages/pagesettings.php:57
 msgid "Membership Cancel"
-msgstr ""
+msgstr "Jäsenyyden peruutus"
 
 #: adminpages/pagesettings.php:60
 msgid "Membership Checkout"
-msgstr ""
+msgstr "Jäsenyyden maksaminen"
 
 #: adminpages/pagesettings.php:63
 msgid "Membership Confirmation"
-msgstr ""
+msgstr "Jäsenyyden vahvistaminen"
 
 #: adminpages/pagesettings.php:66
 msgid "Membership Invoice"
-msgstr ""
+msgstr "Jäsenyyden laskutus"
 
 #: adminpages/pagesettings.php:73
 #, php-format
 msgid "Membership %s"
-msgstr ""
+msgstr "Jäsenyys %s"
 
 #: adminpages/pagesettings.php:111
 msgid "The following pages have been created for you"
 msgstr ""
 
 #: adminpages/pagesettings.php:126
-msgid ""
-"Manage the WordPress pages assigned to each required Paid Memberships Pro page."
+msgid "Manage the WordPress pages assigned to each required Paid Memberships Pro page."
 msgstr ""
 
 #: adminpages/pagesettings.php:132
@@ -1262,33 +1124,25 @@ msgstr "klikkaa tästä generoidaksesi ne"
 msgid "Account Page"
 msgstr "Käyttäjätilisivu"
 
-#: adminpages/pagesettings.php:144 adminpages/pagesettings.php:159
-#: adminpages/pagesettings.php:174 adminpages/pagesettings.php:190
-#: adminpages/pagesettings.php:206 adminpages/pagesettings.php:222
+#: adminpages/pagesettings.php:144 adminpages/pagesettings.php:159 adminpages/pagesettings.php:174 adminpages/pagesettings.php:190 adminpages/pagesettings.php:206 adminpages/pagesettings.php:222
 #: adminpages/pagesettings.php:238
 msgid "Choose One"
 msgstr "﻿Valitse yksi"
 
-#: adminpages/pagesettings.php:147 adminpages/pagesettings.php:162
-#: adminpages/pagesettings.php:177 adminpages/pagesettings.php:193
-#: adminpages/pagesettings.php:209 adminpages/pagesettings.php:225
+#: adminpages/pagesettings.php:147 adminpages/pagesettings.php:162 adminpages/pagesettings.php:177 adminpages/pagesettings.php:193 adminpages/pagesettings.php:209 adminpages/pagesettings.php:225
 #: adminpages/pagesettings.php:241
 msgid "edit page"
 msgstr "muokkaa sivua"
 
-#: adminpages/pagesettings.php:149 adminpages/pagesettings.php:164
-#: adminpages/pagesettings.php:179 adminpages/pagesettings.php:195
-#: adminpages/pagesettings.php:211 adminpages/pagesettings.php:227
+#: adminpages/pagesettings.php:149 adminpages/pagesettings.php:164 adminpages/pagesettings.php:179 adminpages/pagesettings.php:195 adminpages/pagesettings.php:211 adminpages/pagesettings.php:227
 #: adminpages/pagesettings.php:243
 msgid "view page"
 msgstr "näytä sivu"
 
-#: adminpages/pagesettings.php:151 adminpages/pagesettings.php:166
-#: adminpages/pagesettings.php:181 adminpages/pagesettings.php:197
-#: adminpages/pagesettings.php:213 adminpages/pagesettings.php:229
+#: adminpages/pagesettings.php:151 adminpages/pagesettings.php:166 adminpages/pagesettings.php:181 adminpages/pagesettings.php:197 adminpages/pagesettings.php:213 adminpages/pagesettings.php:229
 #: adminpages/pagesettings.php:245
 msgid "Include the shortcode"
-msgstr "\t"
+msgstr ""
 
 #: adminpages/pagesettings.php:155
 msgid "Billing Information Page"
@@ -1328,11 +1182,8 @@ msgstr "﻿SSL-asetukset"
 
 #: adminpages/paymentsettings.php:95
 msgid ""
-"Learn more about <a title=\"Paid Memberships Pro - SSL Settings\" target=\"_blank\" "
-"href=\"http://www.paidmembershipspro.com/support/initial-plugin-setup/ssl/\">SSL</"
-"a> or <a title=\"Paid Memberships Pro - Payment Gateway Settings\" target=\"_blank"
-"\" href=\"http://www.paidmembershipspro.com/support/initial-plugin-setup/payment-"
-"gateway/\">Payment Gateway Settings</a>."
+"Learn more about <a title=\"Paid Memberships Pro - SSL Settings\" target=\"_blank\" href=\"http://www.paidmembershipspro.com/support/initial-plugin-setup/ssl/\">SSL</a> or <a title=\"Paid Memberships Pro "
+"- Payment Gateway Settings\" target=\"_blank\" href=\"http://www.paidmembershipspro.com/support/initial-plugin-setup/payment-gateway/\">Payment Gateway Settings</a>."
 msgstr ""
 
 #: adminpages/paymentsettings.php:153
@@ -1340,9 +1191,7 @@ msgid "Currency"
 msgstr "Valuutta"
 
 #: adminpages/paymentsettings.php:169
-msgid ""
-"Not all currencies will be supported by every gateway. Please check with your "
-"gateway."
+msgid "Not all currencies will be supported by every gateway. Please check with your gateway."
 msgstr ""
 
 #: adminpages/paymentsettings.php:174
@@ -1371,10 +1220,8 @@ msgstr "desimaaliluku, esim \"0.24\""
 
 #: adminpages/paymentsettings.php:195
 msgid ""
-"US only. If values are given, tax will be applied for any members ordering from the "
-"selected state.<br />For non-US or more complex tax rules, use the <a target="
-"\"_blank\" href=\"http://www.paidmembershipspro.com/2013/10/non-us-taxes-paid-"
-"memberships-pro/\">pmpro_tax filter</a>."
+"US only. If values are given, tax will be applied for any members ordering from the selected state.<br />For non-US or more complex tax rules, use the <a target=\"_blank\" href=\"http://www."
+"paidmembershipspro.com/2013/10/non-us-taxes-paid-memberships-pro/\">pmpro_tax filter</a>."
 msgstr ""
 
 #: adminpages/paymentsettings.php:206
@@ -1394,9 +1241,7 @@ msgid "Extra HTTPS URL Filter"
 msgstr ""
 
 #: adminpages/paymentsettings.php:231
-msgid ""
-"Pass all generated HTML through a URL filter to add HTTPS to URLs used on secure "
-"pages. Check this if you are using SSL and have warnings on your checkout pages."
+msgid "Pass all generated HTML through a URL filter to add HTTPS to URLs used on secure pages. Check this if you are using SSL and have warnings on your checkout pages."
 msgstr ""
 
 #: adminpages/reports.php:40
@@ -1546,8 +1391,7 @@ msgstr "Vuosittain"
 msgid "Signups vs. Cancellations"
 msgstr "Rekisteröitymiset vs. Peruutukset"
 
-#: adminpages/reports/memberships.php:304 adminpages/reports/memberships.php:315
-#: adminpages/reports/sales.php:203 adminpages/reports/sales.php:214
+#: adminpages/reports/memberships.php:304 adminpages/reports/memberships.php:315 adminpages/reports/sales.php:203 adminpages/reports/sales.php:214
 msgctxt "Dropdown label, e.g. Show Daily Revenue for January"
 msgid "for"
 msgstr ""
@@ -1555,30 +1399,28 @@ msgstr ""
 #: adminpages/reports/memberships.php:331 adminpages/reports/sales.php:230
 msgctxt "Submit button value."
 msgid "Generate Report"
-msgstr ""
+msgstr "Luo raportti"
 
 #: adminpages/reports/sales.php:18
 msgid "Sales and Revenue (Testing/Sandbox)"
-msgstr ""
+msgstr "Myynti ja tuotto (Testaus/Sandbox)"
 
 #: adminpages/reports/sales.php:20 adminpages/reports/sales.php:189
 msgid "Sales and Revenue"
-msgstr ""
+msgstr "Myynti ja tuotto"
 
 #: adminpages/reports/sales.php:200
 msgid "Revenue"
-msgstr ""
+msgstr "Tuotto"
 
 #: adminpages/reports/sales.php:201
 msgid "Sales"
-msgstr ""
+msgstr "Myynti"
 
 #: classes/class.memberorder.php:644
 #, php-format
-msgid ""
-"There was an error canceling the subscription for user with ID=%s. You will want to "
-"check your payment gateway to see if their subscription is still active."
-msgstr ""
+msgid "There was an error canceling the subscription for user with ID=%s. You will want to check your payment gateway to see if their subscription is still active."
+msgstr "Jäsenyyden peruutuksessa tapahtui virhe käyttäjällä jonka ID=%s. Haluat ehkä tarkastaa maksuväylästä, onko tilaus edelleen aktiivinen."
 
 #: classes/class.pmproemail.php:37
 #, php-format
@@ -1588,168 +1430,144 @@ msgstr "﻿Sähköposti %s"
 #: classes/class.pmproemail.php:134
 #, php-format
 msgid "Your membership at %s has been CANCELLED"
-msgstr ""
+msgstr "%s -jäsenyytesi on PERUTTU"
 
 #: classes/class.pmproemail.php:156
 #, php-format
 msgid "Membership for %s at %s has been CANCELLED"
-msgstr ""
+msgstr "Jäsenyys %s:lle %s:ssa on PERUTTU"
 
 #: classes/class.pmproemail.php:187
 #, php-format
 msgid "Your membership confirmation for %s"
-msgstr ""
+msgstr "%s -jäsenyyden vahvistus"
 
-#: classes/class.pmproemail.php:240 classes/class.pmproemail.php:249
-#: classes/class.pmproemail.php:258 classes/class.pmproemail.php:337
-#: classes/class.pmproemail.php:346 classes/class.pmproemail.php:657
-#: classes/gateways/class.pmprogateway_braintree.php:362
-#: classes/gateways/class.pmprogateway_stripe.php:496 pages/checkout.php:75
-#: pages/checkout.php:85 pages/checkout.php:603 pages/confirmation.php:52
+#: classes/class.pmproemail.php:240 classes/class.pmproemail.php:249 classes/class.pmproemail.php:258 classes/class.pmproemail.php:337 classes/class.pmproemail.php:346 classes/class.pmproemail.php:657
+#: classes/gateways/class.pmprogateway_braintree.php:362 classes/gateways/class.pmprogateway_stripe.php:496 pages/checkout.php:75 pages/checkout.php:85 pages/checkout.php:603 pages/confirmation.php:52
 #: pages/invoice.php:33
 msgid "Discount Code"
 msgstr "Alennuskoodi"
 
-#: classes/class.pmproemail.php:265 classes/class.pmproemail.php:358
-#: classes/class.pmproemail.php:663
+#: classes/class.pmproemail.php:265 classes/class.pmproemail.php:358 classes/class.pmproemail.php:663
 #, php-format
 msgid "This membership will expire on %s."
-msgstr ""
+msgstr "Jäsenyys päättyy %s."
 
 #: classes/class.pmproemail.php:287
 #, php-format
 msgid "Member Checkout for %s at %s"
-msgstr ""
+msgstr "Jäsenmaksu %s:lle %s:ssa"
 
 #: classes/class.pmproemail.php:375
 #, php-format
 msgid "Your billing information has been udpated at %s"
-msgstr ""
+msgstr "Laskutustietosi sivustolla %s on päivitetty"
 
 #: classes/class.pmproemail.php:428
 #, php-format
 msgid "Billing information has been udpated for %s at %s"
-msgstr ""
+msgstr "Laskutustiedot on päivitetty %s:lle %s:ssa"
 
 #: classes/class.pmproemail.php:476
 #, php-format
 msgid "Membership Payment Failed at %s"
-msgstr ""
+msgstr "Jäsenmaksu epäonnistui %s:ssa"
 
 #: classes/class.pmproemail.php:522
 #, php-format
 msgid "Membership Payment Failed For %s at %s"
-msgstr ""
+msgstr "Jäsenmaksu epäonnistui %s %s"
 
 #: classes/class.pmproemail.php:569
 #, php-format
 msgid "Credit Card on File Expiring Soon at %s"
-msgstr ""
+msgstr "Luottokortti vanhenee pian (%s)"
 
 #: classes/class.pmproemail.php:617
 #, php-format
 msgid "INVOICE for %s membership"
-msgstr ""
+msgstr "LASKU %s -jäsenyydestä"
 
 #: classes/class.pmproemail.php:688
 #, php-format
 msgid "Your trial at %s is ending soon"
-msgstr ""
+msgstr "%s -koekäyttöjaksosi päättyy pian"
 
 #: classes/class.pmproemail.php:722
 #, php-format
 msgid "Your membership at %s has ended"
-msgstr ""
+msgstr "%s -jäsenyytesi on päättynyt"
 
 #: classes/class.pmproemail.php:747
 #, php-format
 msgid "Your membership at %s will end soon"
-msgstr ""
+msgstr "%s -jäsenyytesi päättyy pian"
 
 #: classes/class.pmproemail.php:767
 #, php-format
 msgid "Your membership at %s has been changed"
-msgstr ""
+msgstr "%s -jäsenyyttäsi on muutettu"
 
 #: classes/class.pmproemail.php:771 classes/class.pmproemail.php:809
 #, php-format
 msgid "The new level is %s"
-msgstr ""
+msgstr "Uusi taso on %s"
 
 #: classes/class.pmproemail.php:773
 msgid "Your membership has been cancelled"
-msgstr ""
+msgstr "Jäsenyytesi on peruttu"
 
 #: classes/class.pmproemail.php:777 classes/class.pmproemail.php:815
 #, php-format
 msgid "This membership will expire on %s"
-msgstr ""
+msgstr "Jäsenyys päättyy %s"
 
 #: classes/class.pmproemail.php:781 classes/class.pmproemail.php:819
 msgid "This membership does not expire"
-msgstr ""
+msgstr "Jäsenyys ei vanhene"
 
 #: classes/class.pmproemail.php:805
 #, php-format
 msgid "Membership for %s at %s has been changed"
-msgstr ""
+msgstr "Jäsenyyttä %s %s on muutettu"
 
 #: classes/class.pmproemail.php:811
 msgid "Membership has been cancelled"
-msgstr ""
+msgstr "Jäsenyys on peruttu"
 
-#: classes/gateways/class.pmprogateway.php:55
-#: classes/gateways/class.pmprogateway_authorizenet.php:171
-#: classes/gateways/class.pmprogateway_check.php:193
-#: classes/gateways/class.pmprogateway_cybersource.php:171
-#: classes/gateways/class.pmprogateway_payflowpro.php:164
-#: classes/gateways/class.pmprogateway_paypal.php:247
+#: classes/gateways/class.pmprogateway.php:55 classes/gateways/class.pmprogateway_authorizenet.php:171 classes/gateways/class.pmprogateway_check.php:193
+#: classes/gateways/class.pmprogateway_cybersource.php:171 classes/gateways/class.pmprogateway_payflowpro.php:164 classes/gateways/class.pmprogateway_paypal.php:247
 msgid "Unknown error: Authorization failed."
-msgstr ""
+msgstr "Tuntematon virhe: Tunnistautuminen epäonnistui."
 
-#: classes/gateways/class.pmprogateway.php:106
-#: classes/gateways/class.pmprogateway.php:111
-#: classes/gateways/class.pmprogateway.php:129
-#: classes/gateways/class.pmprogateway_authorizenet.php:222
-#: classes/gateways/class.pmprogateway_authorizenet.php:227
-#: classes/gateways/class.pmprogateway_authorizenet.php:244
-#: classes/gateways/class.pmprogateway_check.php:244
-#: classes/gateways/class.pmprogateway_check.php:249
-#: classes/gateways/class.pmprogateway_check.php:267
-#: classes/gateways/class.pmprogateway_cybersource.php:222
-#: classes/gateways/class.pmprogateway_cybersource.php:227
-#: classes/gateways/class.pmprogateway_cybersource.php:245
-#: classes/gateways/class.pmprogateway_payflowpro.php:187
-#: classes/gateways/class.pmprogateway_payflowpro.php:192
-#: classes/gateways/class.pmprogateway_paypal.php:270
+#: classes/gateways/class.pmprogateway.php:106 classes/gateways/class.pmprogateway.php:111 classes/gateways/class.pmprogateway.php:129 classes/gateways/class.pmprogateway_authorizenet.php:222
+#: classes/gateways/class.pmprogateway_authorizenet.php:227 classes/gateways/class.pmprogateway_authorizenet.php:244 classes/gateways/class.pmprogateway_check.php:244
+#: classes/gateways/class.pmprogateway_check.php:249 classes/gateways/class.pmprogateway_check.php:267 classes/gateways/class.pmprogateway_cybersource.php:222
+#: classes/gateways/class.pmprogateway_cybersource.php:227 classes/gateways/class.pmprogateway_cybersource.php:245 classes/gateways/class.pmprogateway_payflowpro.php:187
+#: classes/gateways/class.pmprogateway_payflowpro.php:192 classes/gateways/class.pmprogateway_paypal.php:270
 msgid "Unknown error: Payment failed."
-msgstr ""
+msgstr "Tuntematon virhe: Maksu epäonnistui."
 
-#: classes/gateways/class.pmprogateway.php:113
-#: classes/gateways/class.pmprogateway_authorizenet.php:228
-#: classes/gateways/class.pmprogateway_check.php:251
+#: classes/gateways/class.pmprogateway.php:113 classes/gateways/class.pmprogateway_authorizenet.php:228 classes/gateways/class.pmprogateway_check.php:251
 #: classes/gateways/class.pmprogateway_cybersource.php:229
-msgid ""
-"A partial payment was made that we could not void. Please contact the site owner "
-"immediately to correct this."
-msgstr ""
+msgid "A partial payment was made that we could not void. Please contact the site owner immediately to correct this."
+msgstr "Tehtiin osamaksu, jota emme voi mitätöidä. Ole yhteydessä sivuston omistajaan tilanteen korjaamiseksi."
 
-#: classes/gateways/class.pmprogateway_authorizenet.php:39
-#: paid-memberships-pro.php:123
+#: classes/gateways/class.pmprogateway_authorizenet.php:39 paid-memberships-pro.php:123
 msgid "Authorize.net"
-msgstr ""
+msgstr "Authorize.net"
 
 #: classes/gateways/class.pmprogateway_authorizenet.php:93
 msgid "Authorize.net Settings"
-msgstr ""
+msgstr "Authorize.net-asetukset"
 
 #: classes/gateways/class.pmprogateway_authorizenet.php:98
 msgid "Login Name"
-msgstr ""
+msgstr "Käyttäjänimi"
 
 #: classes/gateways/class.pmprogateway_authorizenet.php:106
 msgid "Transaction Key"
-msgstr ""
+msgstr "Maksutapahtuman tunniste"
 
 #: classes/gateways/class.pmprogateway_authorizenet.php:114
 msgid "Silent Post URL"
@@ -1757,23 +1575,21 @@ msgstr ""
 
 #: classes/gateways/class.pmprogateway_authorizenet.php:117
 msgid "To fully integrate with Authorize.net, be sure to set your Silent Post URL to"
-msgstr ""
+msgstr "Varmistaaksesi Authorize.net-integraation toiminnan, aseta Silent Post URL arvoon"
 
-#: classes/gateways/class.pmprogateway_authorizenet.php:908
-#: classes/gateways/class.pmprogateway_authorizenet.php:909
+#: classes/gateways/class.pmprogateway_authorizenet.php:908 classes/gateways/class.pmprogateway_authorizenet.php:909
 msgid "Could not connect to Authorize.net"
-msgstr ""
+msgstr "Authorize.net-palveluun ei voitu yhdistää"
 
 #: classes/gateways/class.pmprogateway_braintree.php:76 paid-memberships-pro.php:124
 msgid "Braintree Payments"
-msgstr ""
+msgstr "Braintree-maksut"
 
 #: classes/gateways/class.pmprogateway_braintree.php:132
 msgid "Braintree Settings"
-msgstr ""
+msgstr "Braintree-asetukset"
 
-#: classes/gateways/class.pmprogateway_braintree.php:137
-#: classes/gateways/class.pmprogateway_cybersource.php:106
+#: classes/gateways/class.pmprogateway_braintree.php:137 classes/gateways/class.pmprogateway_cybersource.php:106
 msgid "Merchant ID"
 msgstr ""
 
@@ -1789,72 +1605,59 @@ msgstr ""
 msgid "Client-Side Encryption Key"
 msgstr ""
 
-#: classes/gateways/class.pmprogateway_braintree.php:169
-#: classes/gateways/class.pmprogateway_stripe.php:182
+#: classes/gateways/class.pmprogateway_braintree.php:169 classes/gateways/class.pmprogateway_stripe.php:182
 msgid "Web Hook URL"
-msgstr ""
+msgstr "Web Hook URL"
 
 #: classes/gateways/class.pmprogateway_braintree.php:173
 msgid "To fully integrate with Braintree, be sure to set your Web Hook URL to"
-msgstr ""
+msgstr "Varmistaakseni Braintree-integraation toiminnan, aseta Web Hook URL arvoon"
 
-#: classes/gateways/class.pmprogateway_braintree.php:283
-#: classes/gateways/class.pmprogateway_stripe.php:388 pages/checkout.php:494
+#: classes/gateways/class.pmprogateway_braintree.php:283 classes/gateways/class.pmprogateway_stripe.php:388 pages/checkout.php:494
 #, php-format
 msgid "We Accept %s"
 msgstr "Maksuvälineenä käyvät %s"
 
-#: classes/gateways/class.pmprogateway_braintree.php:283
-#: classes/gateways/class.pmprogateway_stripe.php:388 pages/checkout.php:494
+#: classes/gateways/class.pmprogateway_braintree.php:283 classes/gateways/class.pmprogateway_stripe.php:388 pages/checkout.php:494
 msgid "Payment Information"
 msgstr "Maksutiedot"
 
-#: classes/gateways/class.pmprogateway_braintree.php:316
-#: classes/gateways/class.pmprogateway_stripe.php:450 pages/billing.php:257
-#: pages/checkout.php:557
+#: classes/gateways/class.pmprogateway_braintree.php:316 classes/gateways/class.pmprogateway_stripe.php:450 pages/billing.php:257 pages/checkout.php:557
 msgid "Card Number"
 msgstr "﻿Kortin numero"
 
-#: classes/gateways/class.pmprogateway_braintree.php:353
-#: classes/gateways/class.pmprogateway_stripe.php:487 pages/billing.php:294
-#: pages/checkout.php:594
+#: classes/gateways/class.pmprogateway_braintree.php:353 classes/gateways/class.pmprogateway_stripe.php:487 pages/billing.php:294 pages/checkout.php:594
 msgctxt "Credit card security code, CVV/CCV/CVV2"
 msgid "CVV"
-msgstr ""
+msgstr "CVV"
 
-#: classes/gateways/class.pmprogateway_braintree.php:354
-#: classes/gateways/class.pmprogateway_stripe.php:488 pages/billing.php:295
-#: pages/checkout.php:595
-msgctxt "link to CVV help"
+#: classes/gateways/class.pmprogateway_braintree.php:354 classes/gateways/class.pmprogateway_stripe.php:488 pages/billing.php:295 pages/checkout.php:595
 msgid "what's this?"
-msgstr ""
+msgstr "mikä tämä on?"
 
-#: classes/gateways/class.pmprogateway_braintree.php:364
-#: classes/gateways/class.pmprogateway_stripe.php:498 pages/checkout.php:87
-#: pages/checkout.php:605
+#: classes/gateways/class.pmprogateway_braintree.php:364 classes/gateways/class.pmprogateway_stripe.php:498 pages/checkout.php:87 pages/checkout.php:605
 msgid "Apply"
 msgstr "﻿Käytä"
 
-#: classes/gateways/class.pmprogateway_braintree.php:419
-#: classes/gateways/class.pmprogateway_stripe.php:1026
+#: classes/gateways/class.pmprogateway_braintree.php:419 classes/gateways/class.pmprogateway_stripe.php:1026
 msgid "Unknown error: Initial payment failed."
-msgstr ""
+msgstr "Tuntematon virhe: Maksu epäonnistui."
 
 #: classes/gateways/class.pmprogateway_braintree.php:478
 msgid "Error during settlement:"
-msgstr ""
+msgstr "Virhe suorituksessa:"
 
 #: classes/gateways/class.pmprogateway_braintree.php:487
 msgid "Error during charge:"
-msgstr ""
+msgstr "Virhe veloituksessa:"
 
 #: classes/gateways/class.pmprogateway_braintree.php:579
 msgid "Failed to update customer."
-msgstr ""
+msgstr "Virhe asiakkuuden päivityksessä."
 
 #: classes/gateways/class.pmprogateway_braintree.php:627
 msgid "Failed to create customer."
-msgstr ""
+msgstr "Asiakkaan luonti epäonnistui."
 
 #: classes/gateways/class.pmprogateway_braintree.php:634
 msgid "Error creating customer record with Braintree:"
@@ -1866,13 +1669,11 @@ msgstr ""
 
 #: classes/gateways/class.pmprogateway_braintree.php:749
 msgid "Failed to subscribe with Braintree:"
-msgstr ""
+msgstr "Virhe Braintree-tilauksessa:"
 
-#: classes/gateways/class.pmprogateway_braintree.php:787
-#: classes/gateways/class.pmprogateway_braintree.php:800
-#: classes/gateways/class.pmprogateway_braintree.php:807
+#: classes/gateways/class.pmprogateway_braintree.php:787 classes/gateways/class.pmprogateway_braintree.php:800 classes/gateways/class.pmprogateway_braintree.php:807
 msgid "Could not find the subscription."
-msgstr ""
+msgstr "Tilausta ei löydy."
 
 #: classes/gateways/class.pmprogateway_check.php:48 paid-memberships-pro.php:117
 msgid "Pay by Check"
@@ -1880,46 +1681,41 @@ msgstr "Shekkimaksu"
 
 #: classes/gateways/class.pmprogateway_check.php:100
 msgid "Pay by Check Settings"
-msgstr ""
+msgstr "Shekkimaksuasetukset"
 
 #: classes/gateways/class.pmprogateway_check.php:105
 msgid "Instructions"
 msgstr "Ohjeistus"
 
 #: classes/gateways/class.pmprogateway_check.php:109
-msgid ""
-"Who to write the check out to. Where to mail it. Shown on checkout, confirmation, "
-"and invoice pages."
-msgstr ""
-"Kenelle kirjoittaa shekki ja minne se postitetaan. Näytetään tilaamisen, "
-"tilausvahvistuksen ja ostoskorin yhteydessä."
+msgid "Who to write the check out to. Where to mail it. Shown on checkout, confirmation, and invoice pages."
+msgstr "Kenelle kirjoittaa shekki ja minne se postitetaan. Näytetään tilaamisen, tilausvahvistuksen ja ostoskorin yhteydessä."
 
 #: classes/gateways/class.pmprogateway_cybersource.php:42
 msgid "CyberSource"
-msgstr ""
+msgstr "CyberSource"
 
 #: classes/gateways/class.pmprogateway_cybersource.php:96
 msgid "CyberSource Settings"
-msgstr ""
+msgstr "CyberSource-asetukset"
 
 #: classes/gateways/class.pmprogateway_cybersource.php:101
 msgid ""
-"This gateway option is in beta. Some functionality may not be available. Please "
-"contact Paid Memberships Pro with any issues you run into. <strong>Please be sure "
-"to upgrade Paid Memberships Pro to the latest versions when available.</strong>"
+"This gateway option is in beta. Some functionality may not be available. Please contact Paid Memberships Pro with any issues you run into. <strong>Please be sure to upgrade Paid Memberships Pro to the "
+"latest versions when available.</strong>"
 msgstr ""
 
 #: classes/gateways/class.pmprogateway_cybersource.php:114
 msgid "Transaction Security Key"
-msgstr ""
+msgstr "Maksutapahtuman varmenne"
 
 #: classes/gateways/class.pmprogateway_payflowpro.php:39
 msgid "Payflow Pro/PayPal Pro"
-msgstr ""
+msgstr "Payflow Pro/PayPal Pro"
 
 #: classes/gateways/class.pmprogateway_payflowpro.php:95
 msgid "Payflow Pro Settings"
-msgstr ""
+msgstr "Payflow Pro -asetukset"
 
 #: classes/gateways/class.pmprogateway_payflowpro.php:100
 msgid "Partner"
@@ -1935,129 +1731,94 @@ msgstr "﻿Salasana"
 
 #: classes/gateways/class.pmprogateway_payflowpro.php:132
 msgid "IPN Handler"
-msgstr ""
+msgstr "IPN käsittelijä"
 
 #: classes/gateways/class.pmprogateway_payflowpro.php:137
 #, php-format
-msgid ""
-"Payflow does not use IPN. To sync recurring subscriptions, please see <a target="
-"\"_blank\" href=\"%s\">this addon</a>."
+msgid "Payflow does not use IPN. To sync recurring subscriptions, please see <a target=\"_blank\" href=\"%s\">this addon</a>."
 msgstr ""
 
-#: classes/gateways/class.pmprogateway_payflowpro.php:194
-#: classes/gateways/class.pmprogateway_paypal.php:277
-msgid ""
-"A partial payment was made that we could not refund. Please contact the site owner "
-"immediately to correct this."
+#: classes/gateways/class.pmprogateway_payflowpro.php:194 classes/gateways/class.pmprogateway_paypal.php:277
+msgid "A partial payment was made that we could not refund. Please contact the site owner immediately to correct this."
 msgstr ""
 
 #: classes/gateways/class.pmprogateway_paypal.php:57 paid-memberships-pro.php:120
 msgid "PayPal Website Payments Pro"
-msgstr ""
+msgstr "PayPal Website Payments Pro"
 
-#: classes/gateways/class.pmprogateway_paypal.php:113
-#: classes/gateways/class.pmprogateway_paypalexpress.php:118
-#: classes/gateways/class.pmprogateway_paypalstandard.php:112
+#: classes/gateways/class.pmprogateway_paypal.php:113 classes/gateways/class.pmprogateway_paypalexpress.php:118 classes/gateways/class.pmprogateway_paypalstandard.php:112
 msgid "PayPal Settings"
-msgstr ""
+msgstr "PayPal-asetukset"
 
-#: classes/gateways/class.pmprogateway_paypal.php:118
-#: classes/gateways/class.pmprogateway_paypalexpress.php:123
-#: classes/gateways/class.pmprogateway_paypalstandard.php:117
+#: classes/gateways/class.pmprogateway_paypal.php:118 classes/gateways/class.pmprogateway_paypalexpress.php:123 classes/gateways/class.pmprogateway_paypalstandard.php:117
 msgid ""
-"We do not recommend using PayPal Standard. We suggest using PayPal Express, Website "
-"Payments Pro (Legacy), or PayPal Pro (Payflow Pro). <a target=\"_blank\" href="
-"\"http://www.paidmembershipspro.com/2013/09/read-using-paypal-standard-paid-"
-"memberships-pro/\">More information on why can be found here.</a>"
+"We do not recommend using PayPal Standard. We suggest using PayPal Express, Website Payments Pro (Legacy), or PayPal Pro (Payflow Pro). <a target=\"_blank\" href=\"http://www.paidmembershipspro."
+"com/2013/09/read-using-paypal-standard-paid-memberships-pro/\">More information on why can be found here.</a>"
 msgstr ""
+"Emme suosittele PayPal Standard:in käyttämistä. Suosittelemme PayPal Express:n, Website Payments Pro (Legacy):n tai ParyPal Pro (Payflow Pro):n käyttämistä. <a target=\"_blank\" href=\"http://www."
+"paidmembershipspro.com/2013/09/read-using-paypal-standard-paid-memberships-pro/\">Lisätietoja miksi.</a>"
 
-#: classes/gateways/class.pmprogateway_paypal.php:123
-#: classes/gateways/class.pmprogateway_paypalexpress.php:128
-#: classes/gateways/class.pmprogateway_paypalstandard.php:122
+#: classes/gateways/class.pmprogateway_paypal.php:123 classes/gateways/class.pmprogateway_paypalexpress.php:128 classes/gateways/class.pmprogateway_paypalstandard.php:122
 msgid "Gateway Account Email"
 msgstr ""
 
-#: classes/gateways/class.pmprogateway_paypal.php:131
-#: classes/gateways/class.pmprogateway_paypalexpress.php:136
-#: classes/gateways/class.pmprogateway_paypalstandard.php:130
+#: classes/gateways/class.pmprogateway_paypal.php:131 classes/gateways/class.pmprogateway_paypalexpress.php:136 classes/gateways/class.pmprogateway_paypalstandard.php:130
 #: classes/gateways/class.pmprogateway_twocheckout.php:121
 msgid "API Username"
-msgstr ""
+msgstr "API käyttäjätunnus"
 
-#: classes/gateways/class.pmprogateway_paypal.php:139
-#: classes/gateways/class.pmprogateway_paypalexpress.php:144
-#: classes/gateways/class.pmprogateway_paypalstandard.php:138
+#: classes/gateways/class.pmprogateway_paypal.php:139 classes/gateways/class.pmprogateway_paypalexpress.php:144 classes/gateways/class.pmprogateway_paypalstandard.php:138
 #: classes/gateways/class.pmprogateway_twocheckout.php:130
 msgid "API Password"
-msgstr ""
+msgstr "API salasana"
 
-#: classes/gateways/class.pmprogateway_paypal.php:147
-#: classes/gateways/class.pmprogateway_paypalexpress.php:152
-#: classes/gateways/class.pmprogateway_paypalstandard.php:146
+#: classes/gateways/class.pmprogateway_paypal.php:147 classes/gateways/class.pmprogateway_paypalexpress.php:152 classes/gateways/class.pmprogateway_paypalstandard.php:146
 msgid "API Signature"
-msgstr ""
+msgstr "API allekirjoitus"
 
-#: classes/gateways/class.pmprogateway_paypal.php:155
-#: classes/gateways/class.pmprogateway_paypalexpress.php:160
-#: classes/gateways/class.pmprogateway_paypalstandard.php:154
+#: classes/gateways/class.pmprogateway_paypal.php:155 classes/gateways/class.pmprogateway_paypalexpress.php:160 classes/gateways/class.pmprogateway_paypalstandard.php:154
 msgid "IPN Handler URL"
 msgstr ""
 
 #: classes/gateways/class.pmprogateway_paypal.php:158
-msgid ""
-"This URL is passed to PayPal for all new charges and subscriptions. You SHOULD NOT "
-"set this in your PayPal account settings."
+msgid "This URL is passed to PayPal for all new charges and subscriptions. You SHOULD NOT set this in your PayPal account settings."
 msgstr ""
 
-#: classes/gateways/class.pmprogateway_paypal.php:178
-#: classes/gateways/class.pmprogateway_paypalexpress.php:402
-#: classes/gateways/class.pmprogateway_paypalstandard.php:202 pages/checkout.php:295
+#: classes/gateways/class.pmprogateway_paypal.php:178 classes/gateways/class.pmprogateway_paypalexpress.php:402 classes/gateways/class.pmprogateway_paypalstandard.php:202 pages/checkout.php:295
 msgid "Check Out with PayPal"
-msgstr ""
+msgstr "Maksa PayPal -palvelussa"
 
-#: classes/gateways/class.pmprogateway_paypal.php:184
-#: classes/gateways/class.pmprogateway_paypalexpress.php:408
-#: classes/gateways/class.pmprogateway_paypalstandard.php:208 pages/checkout.php:713
+#: classes/gateways/class.pmprogateway_paypal.php:184 classes/gateways/class.pmprogateway_paypalexpress.php:408 classes/gateways/class.pmprogateway_paypalstandard.php:208 pages/checkout.php:713
 msgid "Submit and Check Out"
-msgstr ""
+msgstr "Hyväksy ja maksa"
 
-#: classes/gateways/class.pmprogateway_paypal.php:184
-#: classes/gateways/class.pmprogateway_paypalexpress.php:408
-#: classes/gateways/class.pmprogateway_paypalstandard.php:208
+#: classes/gateways/class.pmprogateway_paypal.php:184 classes/gateways/class.pmprogateway_paypalexpress.php:408 classes/gateways/class.pmprogateway_paypalstandard.php:208
 #: classes/gateways/class.pmprogateway_twocheckout.php:214 pages/checkout.php:713
 msgid "Submit and Confirm"
-msgstr ""
+msgstr "Hyväksy ja vahvista"
 
-#: classes/gateways/class.pmprogateway_paypal.php:605
-#: classes/gateways/class.pmprogateway_paypalexpress.php:740
-#: classes/gateways/class.pmprogateway_paypalstandard.php:466
-msgid ""
-"Please contact the site owner or cancel your subscription from within PayPal to "
-"make sure you are not charged going forward."
-msgstr ""
+#: classes/gateways/class.pmprogateway_paypal.php:605 classes/gateways/class.pmprogateway_paypalexpress.php:740 classes/gateways/class.pmprogateway_paypalstandard.php:466
+msgid "Please contact the site owner or cancel your subscription from within PayPal to make sure you are not charged going forward."
+msgstr "Varmistaaksesi, ettei veloitusta jatketa, ole yhteydessä sivuston omistajaan tai peruuta tilaus PayPal-palvelussa."
 
-#: classes/gateways/class.pmprogateway_paypalexpress.php:63
-#: paid-memberships-pro.php:119
+#: classes/gateways/class.pmprogateway_paypalexpress.php:63 paid-memberships-pro.php:119
 msgid "PayPal Express"
-msgstr ""
+msgstr "PayPal Express"
 
 #: classes/gateways/class.pmprogateway_paypalexpress.php:163
 msgid "To fully integrate with PayPal, be sure to set your IPN Handler URL to "
 msgstr ""
 
-#: classes/gateways/class.pmprogateway_paypalexpress.php:268
-#: classes/gateways/class.pmprogateway_paypalexpress.php:320
+#: classes/gateways/class.pmprogateway_paypalexpress.php:268 classes/gateways/class.pmprogateway_paypalexpress.php:320
 msgid "The PayPal Token was lost."
-msgstr ""
+msgstr "PayPal-token on kadonnut."
 
-#: classes/gateways/class.pmprogateway_paypalstandard.php:60
-#: paid-memberships-pro.php:122
+#: classes/gateways/class.pmprogateway_paypalstandard.php:60 paid-memberships-pro.php:122
 msgid "PayPal Standard"
-msgstr ""
+msgstr "PayPal Standard"
 
 #: classes/gateways/class.pmprogateway_paypalstandard.php:157
-msgid ""
-"Here is your IPN URL for reference. You SHOULD NOT set this in your PayPal settings."
+msgid "Here is your IPN URL for reference. You SHOULD NOT set this in your PayPal settings."
 msgstr ""
 
 #: classes/gateways/class.pmprogateway_stripe.php:94 paid-memberships-pro.php:118
@@ -2066,7 +1827,7 @@ msgstr ""
 
 #: classes/gateways/class.pmprogateway_stripe.php:149
 msgid "Stripe Settings"
-msgstr ""
+msgstr "Stripe-asetukset"
 
 #: classes/gateways/class.pmprogateway_stripe.php:154
 msgid "Secret Key"
@@ -2081,10 +1842,7 @@ msgid "Show Billing Address Fields"
 msgstr ""
 
 #: classes/gateways/class.pmprogateway_stripe.php:177
-msgid ""
-"Stripe doesn't require billing address fields. Choose 'No' to hide them on the "
-"checkout page.<br /><strong>If No, make sure you disable address verification in "
-"the Stripe dashboard settings.</strong>"
+msgid "Stripe doesn't require billing address fields. Choose 'No' to hide them on the checkout page.<br /><strong>If No, make sure you disable address verification in the Stripe dashboard settings.</strong>"
 msgstr ""
 
 #: classes/gateways/class.pmprogateway_stripe.php:185
@@ -2096,15 +1854,11 @@ msgid "Subscription Updates"
 msgstr ""
 
 #: classes/gateways/class.pmprogateway_stripe.php:572
-msgid ""
-"Subscription updates, allow you to change the member's subscription values at "
-"predefined times. Be sure to click Update Profile after making changes."
+msgid "Subscription updates, allow you to change the member's subscription values at predefined times. Be sure to click Update Profile after making changes."
 msgstr ""
 
 #: classes/gateways/class.pmprogateway_stripe.php:574
-msgid ""
-"Subscription updates, allow you to change the member's subscription values at "
-"predefined times. Be sure to click Update User after making changes."
+msgid "Subscription updates, allow you to change the member's subscription values at predefined times. Be sure to click Update User after making changes."
 msgstr ""
 
 #: classes/gateways/class.pmprogateway_stripe.php:579 pages/billing.php:338
@@ -2119,8 +1873,7 @@ msgstr ""
 msgid "Error creating customer record with Stripe:"
 msgstr ""
 
-#: classes/gateways/class.pmprogateway_stripe.php:1261
-#: classes/gateways/class.pmprogateway_stripe.php:1411
+#: classes/gateways/class.pmprogateway_stripe.php:1261 classes/gateways/class.pmprogateway_stripe.php:1411
 msgid "Error creating plan with Stripe:"
 msgstr ""
 
@@ -2130,14 +1883,13 @@ msgstr ""
 
 #: classes/gateways/class.pmprogateway_stripe.php:1538
 msgid "Could not cancel old subscription."
-msgstr ""
+msgstr "Vanhaa tilausta ei voitu peruuttaa."
 
 #: classes/gateways/class.pmprogateway_stripe.php:1555
 msgid "Could not find the customer."
-msgstr ""
+msgstr "Asiakasta ei löydy."
 
-#: classes/gateways/class.pmprogateway_twocheckout.php:60
-#: paid-memberships-pro.php:125
+#: classes/gateways/class.pmprogateway_twocheckout.php:60 paid-memberships-pro.php:125
 msgid "2Checkout"
 msgstr ""
 
@@ -2146,9 +1898,7 @@ msgid "2Checkout Settings"
 msgstr ""
 
 #: classes/gateways/class.pmprogateway_twocheckout.php:125
-msgid ""
-"Go to Account &raquo; User Management in 2Checkout and create a user with API "
-"Access and API Updating."
+msgid "Go to Account &raquo; User Management in 2Checkout and create a user with API Access and API Updating."
 msgstr ""
 
 #: classes/gateways/class.pmprogateway_twocheckout.php:134
@@ -2160,8 +1910,7 @@ msgid "API Private Key"
 msgstr ""
 
 #: classes/gateways/class.pmprogateway_twocheckout.php:143
-msgid ""
-"Go to API in 2Checkout and generate a new key pair. Paste the Private Key here."
+msgid "Go to API in 2Checkout and generate a new key pair. Paste the Private Key here."
 msgstr ""
 
 #: classes/gateways/class.pmprogateway_twocheckout.php:152
@@ -2173,24 +1922,20 @@ msgid "Secret Word"
 msgstr ""
 
 #: classes/gateways/class.pmprogateway_twocheckout.php:161
-msgid ""
-"Go to Account &raquo; Site Management. Look under Checkout Options to find the "
-"Secret Word."
+msgid "Go to Account &raquo; Site Management. Look under Checkout Options to find the Secret Word."
 msgstr ""
 
 #: classes/gateways/class.pmprogateway_twocheckout.php:166
 msgid "TwoCheckout INS URL"
-msgstr ""
+msgstr "TwoCheckout INS URL"
 
 #: classes/gateways/class.pmprogateway_twocheckout.php:169
-msgid ""
-"To fully integrate with 2Checkout, be sure to use the following for your INS URL "
-"and Approved URL"
-msgstr ""
+msgid "To fully integrate with 2Checkout, be sure to use the following for your INS URL and Approved URL"
+msgstr "Jotta 2Checkout-integraatio toimisi oikein, varmista, että käytät seuraavia INS URL- ja Approved URL -osoitteita"
 
 #: classes/gateways/class.pmprogateway_twocheckout.php:214
 msgid "Check Out with 2Checkout"
-msgstr ""
+msgstr "Maksa 2Checkout:lla"
 
 #: includes/adminpages.php:47
 msgid "Memberships"
@@ -2214,19 +1959,19 @@ msgstr "Alennuskoodit"
 
 #: includes/adminpages.php:104
 msgid "<span class=\"ab-icon\"></span>Memberships"
-msgstr ""
+msgstr "<span class=\"ab-icon\"></span>Jäsenyydet"
 
 #: includes/adminpages.php:265
 msgid "View PMPro Documentation"
-msgstr ""
+msgstr "PMPro dokumentaatio"
 
 #: includes/adminpages.php:265
 msgid "Docs"
-msgstr ""
+msgstr "Dokumentit"
 
 #: includes/adminpages.php:266
 msgid "Visit Customer Support Forum"
-msgstr ""
+msgstr "Vieraile asiakastuki foorumilla"
 
 #: includes/adminpages.php:266
 msgid "Support"
@@ -2355,12 +2100,12 @@ msgstr ""
 #: includes/functions.php:200
 #, php-format
 msgid "The price for membership is <strong>%s</strong> now"
-msgstr ""
+msgstr "Jäsenyyden hinta on nyt <strong>%s</strong>"
 
 #: includes/functions.php:202
 #, php-format
 msgid "<strong>%s</strong> now"
-msgstr "<strong>%s</strong> nyt"
+msgstr "<strong>%s</strong>"
 
 #: includes/functions.php:211
 #, php-format
@@ -2409,27 +2154,27 @@ msgstr ""
 
 #: includes/functions.php:264
 msgid "After your initial payment, your first payment is Free."
-msgstr ""
+msgstr "Ensimmäisen maksun jälkeen, seuraava maksu on ilmainen."
 
 #: includes/functions.php:268
 #, php-format
 msgid "After your initial payment, your first %d payments are Free."
-msgstr ""
+msgstr "Ensimmäisen maksun jälkeen, seuraavat %d maksua ovat ilmaisia."
 
 #: includes/functions.php:275
 #, php-format
 msgid "After your initial payment, your first payment will cost %s."
-msgstr ""
+msgstr "Ensimmäisen maksun jälkeen, seuraava maksu on suuruudeltaan %s."
 
 #: includes/functions.php:279
 #, php-format
 msgid "After your initial payment, your first %d payments will cost %s."
-msgstr ""
+msgstr "Ensimmäisen maksun jälkeen, seuraavat %d maksua ovat suurudeltaan %s."
 
 #: includes/functions.php:290
 #, php-format
 msgid "Customers in %s will be charged %s%% tax."
-msgstr ""
+msgstr "Asiakkailta %s:ssa peritään %s%% vero."
 
 #: includes/functions.php:304
 #, php-format
@@ -2438,7 +2183,7 @@ msgstr "Tilaaja vanhenee %d %s jälkeen."
 
 #: includes/functions.php:592
 msgid "User ID not found."
-msgstr ""
+msgstr "Käyttäjätunnusta ei löydy."
 
 #: includes/functions.php:612
 msgid "Invalid level."
@@ -2446,45 +2191,45 @@ msgstr "Virheellinen tilaajataso."
 
 #: includes/functions.php:623
 msgid "not changing?"
-msgstr ""
+msgstr "ei muutosta?"
 
 #: includes/functions.php:640 includes/functions.php:699 includes/functions.php:723
 msgid "Error interacting with database"
-msgstr ""
+msgstr "Virhe tietokannan käsittelyssä"
 
 #: includes/functions.php:764 includes/functions.php:803
 msgid "Membership level not found."
-msgstr ""
+msgstr "Jäsenyystasoa ei löydy."
 
 #: includes/functions.php:1173
 msgid "No code was given to check."
-msgstr ""
+msgstr "Tarkistettavaa koodia ei annettu."
 
 #: includes/functions.php:1182
 msgid "The discount code could not be found."
-msgstr ""
+msgstr "Alennuskoodia ei löydy."
 
 #: includes/functions.php:1197
 #, php-format
 msgid "This discount code goes into effect on %s."
-msgstr ""
+msgstr "Alennuskoodi on voimassa %s alkaen."
 
 #: includes/functions.php:1204
 #, php-format
 msgid "This discount code expired on %s."
-msgstr ""
+msgstr "Alennuskoodi on vanhentunut %s."
 
 #: includes/functions.php:1214
 msgid "This discount code is no longer valid."
-msgstr ""
+msgstr "Alennuskoodi ei ole enää voimassa."
 
 #: includes/functions.php:1227
 msgid "This discount code does not apply to this membership level."
-msgstr ""
+msgstr "Alennuskoodi ei koske tätä jäsenyystasoa."
 
 #: includes/functions.php:1253
 msgid "This discount code is okay."
-msgstr ""
+msgstr "Alennuskoodi on kelvollinen."
 
 #: includes/functions.php:1278
 msgid "and"
@@ -2508,7 +2253,6 @@ msgid "Day"
 msgstr "Päivä"
 
 #: includes/localization.php:28
-#, fuzzy
 msgid "Week"
 msgstr "Viikko"
 
@@ -2518,7 +2262,6 @@ msgid "Month"
 msgstr "Kuukausi"
 
 #: includes/localization.php:32
-#, fuzzy
 msgid "Year"
 msgstr "Vuosi"
 
@@ -2539,10 +2282,8 @@ msgid "Years"
 msgstr "Vuotta"
 
 #: includes/metaboxes.php:38
-msgid ""
-"This post is already protected for this level because it is within a category that "
-"requires membership."
-msgstr ""
+msgid "This post is already protected for this level because it is within a category that requires membership."
+msgstr "Tämä viesti on jo suojattu tällä tasolla, koska se kuuluu jäsenyyden vaativaan kategoriaan."
 
 #: includes/metaboxes.php:99 includes/metaboxes.php:100
 msgid "Require Membership"
@@ -2554,13 +2295,11 @@ msgstr "Nykyinen tilaajataso"
 
 #: includes/profile.php:54
 msgid "Not paying."
-msgstr ""
+msgstr "Ei makseta."
 
 #: includes/profile.php:64
-msgid ""
-"This will not change the subscription at the gateway unless the 'Cancel' checkbox "
-"is selected below."
-msgstr ""
+msgid "This will not change the subscription at the gateway unless the 'Cancel' checkbox is selected below."
+msgstr "Tilaus ei muutu, kunnes 'Peruuta' valintaruutu alapuolella on valittu."
 
 #: includes/upgradecheck.php:422
 #, php-format
@@ -2569,20 +2308,13 @@ msgstr "Tämä sisältö on vain tilaajille.<br /><a href=\"%s\">Rekisteröidy t
 
 #: includes/upgradecheck.php:425
 #, php-format
-msgid ""
-"This content is for !!levels!! members only.<br /><a href=\"%s\">Log In</a> <a href="
-"\"%s\">Register</a>"
-msgstr ""
-"Tämä sisältö on vain tilaajille.<br /><a href=\"%s\">Kirjaudu</a> <a href=\"%s"
-"\">Rekisteröidy</a>"
+msgid "This content is for !!levels!! members only.<br /><a href=\"%s\">Log In</a> <a href=\"%s\">Register</a>"
+msgstr "Tämä sisältö on vain tilaajille.<br /><a href=\"%s\">Kirjaudu</a> <a href=\"%s\">Rekisteröidy</a>"
 
 # !!levels!! muutetaan käyttäjätilin mukaan mutta tällä kertaa on kyse vain tilaajista
 #: includes/upgradecheck.php:429
-msgid ""
-"This content is for !!levels!! members only. Visit the site and log in/register to "
-"read."
-msgstr ""
-"Tämä sisältö on vain tilaajille. Kirjaudu sisään tai rekisteröidy lukeaksesi sen."
+msgid "This content is for !!levels!! members only. Visit the site and log in/register to read."
+msgstr "Tämä sisältö on vain tilaajille. Kirjaudu sisään tai rekisteröidy lukeaksesi sen."
 
 #: pages/billing.php:23
 #, php-format
@@ -2593,8 +2325,7 @@ msgstr "﻿Kirjautuneena <strong>%s</strong>."
 msgid "logout"
 msgstr "﻿uloskirjaus"
 
-#: pages/billing.php:25 pages/cancel.php:52 pages/invoice.php:109 pages/levels.php:13
-#: shortcodes/pmpro_account.php:44 shortcodes/pmpro_account.php:123
+#: pages/billing.php:25 pages/cancel.php:52 pages/invoice.php:109 pages/levels.php:13 shortcodes/pmpro_account.php:44 shortcodes/pmpro_account.php:123
 msgid "Level"
 msgstr "Taso"
 
@@ -2617,10 +2348,8 @@ msgid "Duration"
 msgstr "Kesto"
 
 #: pages/billing.php:52
-msgid ""
-"Your payment subscription is managed by PayPal. Please <a href=\"http://www.paypal."
-"com\">login to PayPal here</a> to update your billing information."
-msgstr ""
+msgid "Your payment subscription is managed by PayPal. Please <a href=\"http://www.paypal.com\">login to PayPal here</a> to update your billing information."
+msgstr "Maksutilausta hallitsee PayPal. Ole hyvä ja <a href=\"http://www.paypal.com\">kirjaudu PayPal-tilille</a>päivittääkseni laskutustietoja."
 
 #: pages/billing.php:78 pages/checkout.php:318
 msgid "First Name"
@@ -2680,19 +2409,17 @@ msgid "Credit Card Information"
 msgstr "﻿Luottokortin tiedot"
 
 #: pages/billing.php:353
-msgid ""
-"This subscription is not recurring. So you don't need to update your billing "
-"information."
-msgstr ""
+msgid "This subscription is not recurring. So you don't need to update your billing information."
+msgstr "Tämä ei ole toistuva tilaus, joten laskutustietojen päivitys ei ole tarpeellista."
 
 #: pages/cancel.php:26
 msgid "Are you sure you want to cancel your membership?"
-msgstr ""
+msgstr "Haluatko varmasti perua tilauksesi?"
 
 #: pages/cancel.php:32
 #, php-format
 msgid "Are you sure you want to cancel your %s membership?"
-msgstr ""
+msgstr "Haluatko varmasti perua %s -tilauksesi?"
 
 #: pages/cancel.php:37
 msgid "Yes, cancel my account"
@@ -2704,49 +2431,45 @@ msgstr "﻿Ei, pidä tilini"
 
 #: pages/cancel.php:48 shortcodes/pmpro_account.php:40
 msgid "My Memberships"
-msgstr ""
+msgstr "Jäsenyyteni"
 
 #: pages/cancel.php:77
 msgid "Cancel All Memberships"
-msgstr ""
+msgstr "Peruuta kaikki tilaukset"
 
 #: pages/cancel.php:86
 msgid "Click here to go to the home page."
 msgstr "﻿Klikkaa tästä päästäksesi etusivulle."
 
 #: pages/checkout.php:35
-msgid ""
-"Almost done. Review the membership information and pricing below then <strong>click "
-"the \"Complete Payment\" button</strong> to finish your order."
-msgstr ""
+msgid "Almost done. Review the membership information and pricing below then <strong>click the \"Complete Payment\" button</strong> to finish your order."
+msgstr "Tarkasta jäsenyyden tiedot ja hinta. Viimeistelläksesi tilauksen, klikkaa \"Vahvista maksu\" painiketta."
 
 #: pages/checkout.php:42
 msgid "change"
-msgstr ""
+msgstr "vaihda"
 
 #: pages/checkout.php:50
 #, php-format
 msgid "You have selected the <strong>%s</strong> membership level."
-msgstr ""
+msgstr "Olet valinnut <strong>%s</strong> -jäsenyyden."
 
 #: pages/checkout.php:60
 #, php-format
-msgid ""
-"<p class=\"pmpro_level_discount_applied\">The <strong>%s</strong> code has been "
-"applied to your order.</p>"
-msgstr ""
+msgid "<p class=\"pmpro_level_discount_applied\">The <strong>%s</strong> code has been applied to your order.</p>"
+msgstr "<p class=\"pmpro_level_discount_applied\">Koodi <strong>%s</strong> on lisätty tilaukseesi.</p>"
 
 #: pages/checkout.php:71 services/applydiscountcode.php:89
 msgid "Click here to change your discount code"
-msgstr ""
+msgstr "Klikkaa vaihdtaaksesi alennuskoodia"
 
 #: pages/checkout.php:73
 msgid "Do you have a discount code?"
-msgstr ""
+msgstr "Onko sinulla alennuskoodi?"
 
 #: pages/checkout.php:73
 msgid "Click here to enter your discount code"
-msgstr ""
+msgstr "Klikkaa lisätäksesi alennuskoodin"
 
 #: pages/checkout.php:172
 msgid "Already have an account?"
@@ -2778,18 +2501,16 @@ msgstr "JÄTÄ TYHJÄKSI"
 
 #: pages/checkout.php:269
 #, php-format
-msgid ""
-"You are logged in as <strong>%s</strong>. If you would like to use a different "
-"account for this membership, <a href=\"%s\">log out now</a>."
+msgid "You are logged in as <strong>%s</strong>. If you would like to use a different account for this membership, <a href=\"%s\">log out now</a>."
 msgstr "Olet kirjautunut sisään käyttäjänä <strong>%s</strong>. Jos haluat käyttää eri tiliä, <a href=\"%s\">kirjaudu ulos</a>."
 
 #: pages/checkout.php:285
 msgid "Choose your Payment Method"
-msgstr ""
+msgstr "Valitse maksutapa"
 
 #: pages/checkout.php:293
 msgid "Check Out with a Credit Card Here"
-msgstr ""
+msgstr "Maksa luottokortilla"
 
 #: pages/checkout.php:681
 #, php-format
@@ -2798,33 +2519,35 @@ msgstr "Hyväksyn %s"
 
 #: pages/checkout.php:701
 msgid "Complete Payment"
-msgstr ""
+msgstr "Vahvista maksu"
 
 #: pages/checkout.php:723
 msgid "Processing..."
 msgstr "Prosessoidaan..."
 
+#: classes/gateways/class.pmprogateway_stripe.php:623 pages/checkout.php:500 classes/gateways/class.pmprogateway_stripe.php:638 classes/gateways/class.pmprogateway_stripe.php:646
+#: classes/gateways/class.pmprogateway_stripe.php:653 classes/gateways/class.pmprogateway_stripe.php:654 classes/gateways/class.pmprogateway_stripe.php:655 pages/checkout.php:492
+msgid "Security Code (CVC)"
+msgstr "Turvakoodi (CVC)"
+
 #: pages/confirmation.php:12
 msgid "Your payment has been submitted. Your membership will be activated shortly."
-msgstr ""
+msgstr "Maksusi on hyväksytty. Jäsenyytesi aktivoidaan pian."
 
 #: pages/confirmation.php:14
 #, php-format
 msgid "Thank you for your membership to %s. Your %s membership is now active."
-msgstr ""
+msgstr "Kiitos jäsenyydestäsi kohteeseen %s. %s -jäsenyytesi on nyt aktiivinen."
 
 #: pages/confirmation.php:28
 #, php-format
-msgid ""
-"Below are details about your membership account and a receipt for your initial "
-"membership invoice. A welcome email with a copy of your initial membership invoice "
-"has been sent to %s."
-msgstr ""
+msgid "Below are details about your membership account and a receipt for your initial membership invoice. A welcome email with a copy of your initial membership invoice has been sent to %s."
+msgstr "Alla on jäsenyystilisi tiedot ja kuitti jäsenlaskusta. Olemme lähettäneet sähköpostia osoitteeseen %s. Sähköpostin mukana on kopio jäsenlaskusta."
 
 #: pages/confirmation.php:41 pages/invoice.php:22
 #, php-format
 msgid "Invoice #%s on %s"
-msgstr ""
+msgstr "Lasku #%s %s"
 
 #: pages/confirmation.php:43 pages/invoice.php:24
 msgid "Print"
@@ -2836,11 +2559,11 @@ msgstr "Käyttäjätili"
 
 #: pages/confirmation.php:49 pages/invoice.php:30
 msgid "Membership Expires"
-msgstr ""
+msgstr "Jäsenyys vanhenee"
 
 #: pages/confirmation.php:63 pages/invoice.php:50
 msgid "Payment Method"
-msgstr ""
+msgstr "Maksutapa"
 
 #: pages/confirmation.php:65 pages/invoice.php:52 pages/invoice.php:110
 msgid "Total Billed"
@@ -2848,29 +2571,25 @@ msgstr "Yhteensä laskutettu"
 
 #: pages/confirmation.php:82 pages/invoice.php:69
 msgid "ending in"
-msgstr ""
+msgstr ", jonka numero loppuu"
 
 #: pages/confirmation.php:97
 #, php-format
-msgid ""
-"Below are details about your membership account. A welcome email has been sent to "
-"%s."
-msgstr ""
+msgid "Below are details about your membership account. A welcome email has been sent to %s."
+msgstr "Alla on jäsenyystilisi tiedot. Osoitteeseen %s on lähetetty sähköpostia."
 
 #: pages/confirmation.php:105
 msgctxt "User without membership is in {pending} status."
 msgid "Pending"
-msgstr ""
+msgstr "Odottaa"
 
 #: pages/confirmation.php:113 pages/invoice.php:141
 msgid "View Your Membership Account &rarr;"
-msgstr ""
+msgstr "Tarkastele jäsenyystiliäsi &rarr;"
 
 #: pages/confirmation.php:115
-msgid ""
-"If your account is not activated within a few minutes, please contact the site "
-"owner."
-msgstr ""
+msgid "If your account is not activated within a few minutes, please contact the site owner."
+msgstr "Mikäli tilisi ei ole aktivoitunut muutaman minuutin kulueassa, ota yhteyttä sivuston omistajaan."
 
 #: pages/invoice.php:79
 msgid "Subtotal"
@@ -2878,19 +2597,23 @@ msgstr "﻿Välisumma"
 
 #: pages/invoice.php:82
 msgid "Coupon"
-msgstr ""
+msgstr "Kuponki"
 
 #: pages/invoice.php:108
 msgid "Invoice #"
-msgstr ""
+msgstr "Lasku #"
 
 #: pages/invoice.php:134
 msgid "No invoices found."
-msgstr ""
+msgstr "Laskuja ei löytynyt."
 
 #: pages/invoice.php:145
 msgid "&larr; View All Invoices"
-msgstr ""
+msgstr "&larr; Näytä kaikki laskut"
+
+#: pages/invoice.php:29
+msgid "success"
+msgstr "onnistunut"
 
 #: pages/levels.php:14
 msgid "Price"
@@ -2910,15 +2633,15 @@ msgstr "Uusi"
 
 #: pages/levels.php:63
 msgid "Your&nbsp;Level"
-msgstr ""
+msgstr "Sinun&nbsp;tasosi"
 
 #: pages/levels.php:79
 msgid "&larr; Return to Your Account"
-msgstr ""
+msgstr "&larr; Takaisin tiliin"
 
 #: pages/levels.php:81
 msgid "&larr; Return to Home"
-msgstr ""
+msgstr "&larr; Takaisin etusivulle"
 
 #: paid-memberships-pro.php:116
 msgid "Testing Only"
@@ -2926,32 +2649,31 @@ msgstr "Vain Testaus"
 
 #: paid-memberships-pro.php:121
 msgid "PayPal Payflow Pro/PayPal Pro"
-msgstr ""
+msgstr "\"PayPal Payflow Pro/PayPal Pro"
 
 #: paid-memberships-pro.php:126
 msgid "Cybersource"
-msgstr ""
+msgstr "Cybersource"
 
 #: preheaders/account.php:10 preheaders/levels.php:22
 msgid "Your membership status has been updated - Thank you!"
-msgstr ""
+msgstr "Jäsenyytesi on päivitetty - kiitos!"
 
 #: preheaders/account.php:12 preheaders/levels.php:24
-msgid ""
-"Sorry, your request could not be completed - please try again in a few moments."
-msgstr ""
+msgid "Sorry, your request could not be completed - please try again in a few moments."
+msgstr "Pahoittelut, pyyntöäsi ei voitu käsitellä - ole hyvä ja yritä myöhemmin uudelleen."
 
 #: preheaders/billing.php:270 preheaders/checkout.php:332
 msgid "Please complete all required fields."
-msgstr ""
+msgstr "Täytä kaikki pakolliset kentät."
 
 #: preheaders/billing.php:273 preheaders/checkout.php:340
 msgid "Your email addresses do not match. Please try again."
-msgstr ""
+msgstr "Sähköpostiosoitteet eivät täsmää. Yritä uudelleen."
 
 #: preheaders/billing.php:276 preheaders/checkout.php:345
 msgid "The email address entered is in an invalid format. Please try again."
-msgstr ""
+msgstr "Sähköpostiosoite on virheellinen. Yritä uudelleen."
 
 #: preheaders/billing.php:280
 msgid "All good!"
@@ -2960,15 +2682,15 @@ msgstr "Kaikki kunnossa!"
 #: preheaders/billing.php:350
 #, php-format
 msgid "Information updated. <a href=\"%s\">&laquo; back to my account</a>"
-msgstr ""
+msgstr "Tiedot päivitetty. <a href=\"%s\">&laquo; takaisin tiliini</a>"
 
 #: preheaders/billing.php:356
 msgid "Error updating billing information."
-msgstr ""
+msgstr "Virhe laskutustietojen muuttamisessa."
 
 #: preheaders/cancel.php:28
 msgid "Your membership has been cancelled."
-msgstr ""
+msgstr "Jäsenyytesi on peruttu."
 
 #: preheaders/checkout.php:32 preheaders/checkout.php:354
 msgid "Invalid gateway."
@@ -2976,15 +2698,15 @@ msgstr "Virheellinen maksuväylä."
 
 #: preheaders/checkout.php:95
 msgid "Checkout: Payment Information"
-msgstr ""
+msgstr "Maksaminen: Maksun tiedot"
 
 #: preheaders/checkout.php:100
 msgid "Set Up Your Account"
-msgstr ""
+msgstr "Määritä tilisi"
 
 #: preheaders/checkout.php:300
 msgid "There are JavaScript errors on the page. Please contact the webmaster."
-msgstr ""
+msgstr "Sivustolla on JavaScript-virheitä. Ole yhteydessä sivuston ylläpitäjään."
 
 #: preheaders/checkout.php:335
 msgid "Your passwords do not match. Please try again."
@@ -3001,16 +2723,16 @@ msgstr "﻿Oletko roskapostittaja?"
 
 #: preheaders/checkout.php:377
 msgid "That username is already taken. Please try another."
-msgstr ""
+msgstr "Käyttäjätunnus on jo rekisteröity. Valitse toinen käyttäjätunnus."
 
 #: preheaders/checkout.php:382
 msgid "That email address is already taken. Please try another."
-msgstr ""
+msgstr "Sähköpostiosoite on jo rekisteröity. Valitse toinen sähköpostiosoite."
 
 #: preheaders/checkout.php:416
 #, php-format
 msgid "reCAPTCHA failed. (%s) Please try again."
-msgstr ""
+msgstr "reCAPTCHA oli virheellinen. (%s) Yritä uudelleen, ole hyvä."
 
 #: preheaders/checkout.php:501
 msgid "Payment accepted."
@@ -3018,81 +2740,71 @@ msgstr "﻿Maksu hyväksytty."
 
 #: preheaders/checkout.php:509
 msgid "Unknown error generating account. Please contact us to set up your membership."
-msgstr ""
+msgstr "Tiliä luotaessa tapahtui tuntematon virhe. Jäsenyyden hankkimiseksi, ole yhteydessä meihin."
 
 #: preheaders/checkout.php:571
-msgid ""
-"Your payment was accepted, but there was an error setting up your account. Please "
-"contact us."
-msgstr ""
+msgid "Your payment was accepted, but there was an error setting up your account. Please contact us."
+msgstr "Maksusi on hyväksytty, mutta tilin määrittämisessä tapahtui virhe. Otathan meihin yhteyttä."
 
 #: preheaders/checkout.php:712
 msgid ""
-"IMPORTANT: Something went wrong during membership creation. Your credit card "
-"authorized, but we cancelled the order immediately. You should not try to submit "
-"this form again. Please contact the site owner to fix this issue."
-msgstr ""
+"IMPORTANT: Something went wrong during membership creation. Your credit card authorized, but we cancelled the order immediately. You should not try to submit this form again. Please contact the site owner "
+"to fix this issue."
+msgstr "TÄRKEÄÄ: Jäsenyyden luonnissa tapahtui virhe. Luottokorttisi varmennettiin, mutta peruimme tilauksen välittömästi. Älä lähetä tätä lomaketta uudelleen, vaan ole yhteydessä tämän sivuston omistajaan."
 
 #: preheaders/checkout.php:715
 msgid ""
-"IMPORTANT: Something went wrong during membership creation. Your credit card was "
-"charged, but we couldn't assign your membership. You should not submit this form "
-"again. Please contact the site owner to fix this issue."
-msgstr ""
+"IMPORTANT: Something went wrong during membership creation. Your credit card was charged, but we couldn't assign your membership. You should not submit this form again. Please contact the site owner to "
+"fix this issue."
+msgstr "TÄRKEÄÄ: Jäsenyyden luonnissa tapahtui virhe. Luottokorttiasi on veloitettu, mutta jäsenyyttäsi ei voitu luoda. Älä lähetä tätä lomaketta uudelleen, vaan ole yhteydessä tämän sivuston omistajaan."
 
 #: preheaders/checkout.php:726
 #, php-format
-msgid ""
-"You must <a href=\"%s\">set up a Payment Gateway</a> before any payments will be "
-"processed."
-msgstr ""
+msgid "You must <a href=\"%s\">set up a Payment Gateway</a> before any payments will be processed."
+msgstr "Sinun on <a href=\"%s\">määriteltävä Payment Gateway</a>, jotta maksut voidaan käsitellä."
 
 #: preheaders/checkout.php:728
 msgid "A Payment Gateway must be set up before any payments will be processed."
-msgstr ""
+msgstr "Maksuväylä on määriteltävä ennen kuin maksuja voidaan käsitellä."
 
 #: scheduled/crons.php:38
 #, php-format
 msgid "Membership expired email sent to %s. "
-msgstr ""
+msgstr "Sähköposti jäsenyyden päättymisestä on lähetetty vastaanottajalle %s "
 
 #: scheduled/crons.php:84
 #, php-format
 msgid "Membership expiring email sent to %s. "
-msgstr ""
+msgstr "Sähköposti jäsenyyyden päättymisestä on lähetetty vastaanottajalle %s. "
 
 #: scheduled/crons.php:157
 #, php-format
 msgid "Credit card expiring email sent to %s. "
-msgstr ""
+msgstr "Sähköposti luottokortin vanhenemisesta on lähetetty vastaanottajalle %s. "
 
 #: scheduled/crons.php:210
 #, php-format
 msgid "Trial ending email sent to %s. "
-msgstr ""
+msgstr "Kokeilujakson päättymisestä on lähetetty sähköposti vastaanottajalle %s. "
 
 #: services/applydiscountcode.php:67
 #, php-format
 msgid "The %s code has been applied to your order. "
-msgstr ""
+msgstr "Koodi %s on lisätty tilaukseesi. "
 
 #: services/applydiscountcode.php:97
 #, php-format
 msgid "The <strong>%s</strong> code has been applied to your order."
-msgstr ""
+msgstr "Koodi <strong>%s</strong> on lisätty tilaukseesi."
 
 #: services/authnet-silent-post.php:141
-msgid ""
-"<p>A payment is being held for review within Authorize.net.</p><p>Payment "
-"Information From Authorize.net"
+msgid "<p>A payment is being held for review within Authorize.net.</p><p>Payment Information From Authorize.net"
 msgstr ""
 
 #: services/stripe-webhook.php:270
 #, php-format
-msgid ""
-"%s has had their payment subscription cancelled by Stripe. Please check that this "
-"user's membership is cancelled on your site if it should be."
-msgstr ""
+msgid "%s has had their payment subscription cancelled by Stripe. Please check that this user's membership is cancelled on your site if it should be."
+msgstr "Stripe on perunut %s:n tilauksen. Tarkasta, että käyttäjän tilaus on peruttu sivustollasi, mikäli tarvetta."
 
 #: shortcodes/pmpro_account.php:45
 msgid "Billing"
@@ -3108,7 +2820,7 @@ msgstr "﻿Päivitä"
 
 #: shortcodes/pmpro_account.php:90
 msgid "View all Membership Options"
-msgstr ""
+msgstr "Näytä kaikki jäsenyysvaihtoehdot"
 
 #: shortcodes/pmpro_account.php:99
 msgid "My Account"
@@ -3130,13 +2842,21 @@ msgstr "﻿Edelliset laskut"
 msgid "Amount"
 msgstr "Määrä"
 
+#: shortcodes/pmpro_account.php:148
+msgid "Paid"
+msgstr "Maksettu"
+
+#: shortcodes/pmpro_account.php:153
+msgid "Refunded"
+msgstr "Palautettu"
+
 #: shortcodes/pmpro_account.php:152
 msgid "View All Invoices"
 msgstr "﻿Näytä kaikki laskut"
 
 #: shortcodes/pmpro_account.php:159
 msgid "Member Links"
-msgstr ""
+msgstr "Jäsenlinkit"
 
 #~ msgid "Setup the membership pages"
 #~ msgstr "Aseta sivut tilaajia varten"
@@ -3153,12 +2873,8 @@ msgstr ""
 #~ msgid "Yes - Use your styling instead."
 #~ msgstr "Kyllä - Käytä omia css-sääntöjä sen sijaan."
 
-#~ msgid ""
-#~ "If unchecked, all emails from \"%s &lt; %s &gt;\" will be filtered to use the "
-#~ "above settings."
-#~ msgstr ""
-#~ "Jos tämä ei ole valittuna <strong>kaikki</strong> sivuston sähköpostit "
-#~ "lähetetään osoitteesta \"%s &lt; %s &gt;\""
+#~ msgid "If unchecked, all emails from \"%s &lt; %s &gt;\" will be filtered to use the above settings."
+#~ msgstr "Jos tämä ei ole valittuna <strong>kaikki</strong> sivuston sähköpostit lähetetään osoitteesta \"%s &lt; %s &gt;\""
 
 #~ msgid "Billing Cycle"
 #~ msgstr "Laskutusjakso"
@@ -3172,16 +2888,13 @@ msgstr ""
 #~ msgid "for"
 #~ msgstr "/"
 
-#~ msgid ""
-#~ "Are you sure you want to delete membership level %s? All subscriptions will be "
-#~ "cancelled."
+#~ msgid "Are you sure you want to delete membership level %s? All subscriptions will be cancelled."
 #~ msgstr "Haluatko varmasti poistaa tilaajatason %s? Kaikki tilaukset peruutetaan."
 
 #~ msgid "Never"
 #~ msgstr "Ei koskaan"
 
-#~ msgid ""
-#~ "Manage the WordPress pages assigned to each required Paid Subscriptions page."
+#~ msgid "Manage the WordPress pages assigned to each required Paid Subscriptions page."
 #~ msgstr "Hallitse Paid Subscriptions:n tarvitsemia WordPress sivuja"
 
 #~ msgid "Assign the WordPress pages for each required Paid Subscriptions page or"
